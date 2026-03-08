@@ -36,9 +36,9 @@
         </a>
       </div>
       <!-- Left Column: Contenus d'Exploration -->
-      <div class="grid gap-4 content-start min-w-[330px]">
+      <div class="grid gap-4 content-start min-w-82.5">
         <div
-          class="card bg-emerald-900 flex flex-col preset-filled-surface-100-900 border-[1px] border-surface-200-800 p-4 text-center gap-4"
+          class="card bg-emerald-900 flex flex-col preset-filled-surface-100-900 border border-surface-200-800 p-4 text-center gap-4"
         >
           <button class="flex w-full items-center justify-between" onclick={() => toggle('forays')}>
             <div class="text-lg font-bold">Stratégies simplifiées</div>
@@ -54,7 +54,7 @@
                 <div class="text-left text-sm font-semibold mb-3">Contenus d'Exploration</div>
                 <div class="flex flex-col gap-4">
                   <a
-                    href="{base}/forays/ba"
+                    href="{base}/upcoming"
                     class="btn preset-tonal-secondary disabled border border-sky-600"
                     >Arsenal de Baldesion (BA)</a
                   >
@@ -62,19 +62,19 @@
               </div>
               <div class="flex flex-col gap-4">
                 <a
-                  href="{base}/forays/drs"
+                  href="{base}/upcoming"
                   class="btn preset-tonal-secondary disabled border border-amber-300"
                   >Delubrum Reginae (Sadique) (DRS)</a
                 >
               </div>
               <div class="flex flex-col gap-4">
                 <a
-                  href="{base}/forays/ftf"
+                  href="{base}/upcoming"
                   class="btn preset-tonal-secondary disabled border border-fuschia-600"
                   >Tour Fourchue de la force (FTB)</a
                 >
                 <a
-                  href="{base}/forays/ftm"
+                  href="{base}/upcoming"
                   class="btn preset-tonal-secondary disabled border bg-red-800"
                   >Tour Fourchue de la magie (FTM)</a
                 >
@@ -94,9 +94,9 @@
         </div>
       </div>
       <!-- Right Column: Chaotiques -->
-      <div class="grid gap-4 content-start min-w-[330px]">        
+      <div class="grid gap-4 content-start min-w-82.5">        
         <div
-          class="card flex flex-col preset-filled-surface-100-900 border-[1px] border-surface-200-800 p-4 text-center gap-4 bg-sky-700"
+          class="card flex flex-col preset-filled-surface-100-900 border border-surface-200-800 p-4 text-center gap-4 bg-sky-700"
         >
           <button class="flex w-full items-center justify-between" onclick={() => toggle('chaotic')}>
             <div class="text-lg font-bold">Guides approfondis</div>
@@ -147,7 +147,7 @@
                 </a
                 >
                 <a
-                  href="#"
+                  href={'#'}
                   class="btn preset-tonal-secondary disabled border bg-red-800"
                   >Tour Fourchue de la magie (FTM)
                   <ExternalLink

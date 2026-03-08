@@ -1,0 +1,21 @@
+{
+	"/": [
+		"src/routes/+page.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/car/cod": [
+		"src/routes/car/cod/+page.ts",
+		"src/routes/+layout.ts"
+	],
+	"/changelog": [
+		"src/routes/+layout.ts"
+	],
+	"/tools/idyllic": [
+		"src/routes/tools/idyllic/+page.ts",
+		"src/routes/+layout.ts"
+	],
+	"/upcoming": [
+		"src/routes/+layout.ts"
+	]
+}

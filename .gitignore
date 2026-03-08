@@ -10,7 +10,6 @@ vite.config.js.timestamp-*
 /documentation/types.js
 .env
 .vercel_build_output
-.svelte-kit
 .cloudflare
 .pnpm-debug.log
 .netlify
@@ -21,8 +20,3 @@ symlink-from
 .idea/
 .vs/
 build
-
-# Cline
-.clinerules
-.clineignore
-memory-bank/

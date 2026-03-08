@@ -24,22 +24,22 @@
         {
           title: 'Arsenal de Baldesion',
           subtitle: 'BA - Eurêka (niveau 70)',
-          url: '/forays/ba'
+          url: '/upcoming'
         },
         {
           title: 'Delubrum Reginae (Sadique)',
           subtitle: 'DRS - Bozja (niveau 80)',
-          url: '/forays/drs'
+          url: '/upcoming'
         },
         {
           title: 'Tour Fourchue de la Force',
           subtitle: 'FTB - Lunule (niveau 100)',
-          url: '/forays/ftf'
+          url: '/upcoming'
         },
         {
           title: 'Tour Fourchue de la Magie',
           subtitle: 'FTM - Lunule (niveau 100)',
-          url: '/forays/ftm'
+          url: '/upcoming'
         }
       ]
     },
@@ -93,7 +93,7 @@ const navItemsGuides = [
         {
           title: 'La Tour de Ténèbres',
           subtitle: 'COD - Raid en Alliance Chaotique',
-          url: '/car/cod'
+          url: 'https://carguideconclave.crd.co/'
         }
       ]
     }
@@ -137,7 +137,7 @@ const navItemsGuides = [
                           {#snippet child({ props })}
                             <a
                               data-sveltekit-replacestate
-                              href={subItem.url}
+                              href={base}{subItem.url}
                               {...props}
                               onclick={handleLinkClick}
                               class="flex flex-col w-full items-start"

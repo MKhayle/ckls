@@ -76,7 +76,7 @@
   </div>
 {/if}
 {#if timeline.length > 0}
-  <div class="card border-[1px] border-surface-200-800 mb-4">
+  <div class="card border border-surface-200-800 mb-4">
     <Accordion value={timelineValue} onValueChange={(e) => (timelineValue = e.value)} collapsible>
       <Accordion.Item value="timeline">
         {#snippet control()}
@@ -95,47 +95,47 @@
                 <div class="w-4">
                   {#if item.mechType === 'Start'}
                     <div
-                      class="grid bg-green-700 rounded-sm h-[16px] w-[16px] p-auto place-content-center"
+                      class="grid bg-green-700 rounded-sm h-4 w-4 p-auto place-content-center"
                     >
                       <Play size={12} strokeWidth={2} />
                     </div>
                   {/if}
                   {#if item.mechType === 'Phase'}
-                    <div class="grid rounded-sm h-[16px] w-[16px] p-auto place-items-center">
+                    <div class="grid rounded-sm h-4 w-4 p-auto place-items-center">
                       <ArrowRight size={12} strokeWidth={2} />
                     </div>
                   {/if}
                   {#if item.mechType === 'Raidwide'}
                     <div
-                      class="grid bg-purple-800 rounded-sm h-[16px] w-[16px] p-auto place-content-center"
+                      class="grid bg-purple-800 rounded-sm h-4 w-4 p-auto place-content-center"
                     >
                       <Siren size={12} strokeWidth={2} />
                     </div>
                   {/if}
                   {#if item.mechType === 'Mechanic'}
                     <div
-                      class="grid bg-amber-700 rounded-sm h-[16px] w-[16px] p-auto place-content-center"
+                      class="grid bg-amber-700 rounded-sm h-4 w-4 p-auto place-content-center"
                     >
                       <Wrench size={12} strokeWidth={2} />
                     </div>
                   {/if}
                   {#if item.mechType === 'Tankbuster'}
                     <div
-                      class="grid bg-blue-700 rounded-sm h-[16px] w-[16px] p-auto place-content-center"
+                      class="grid bg-blue-700 rounded-sm h-4 w-4 p-auto place-content-center"
                     >
                       <Shield size={12} strokeWidth={2} />
                     </div>
                   {/if}
                   {#if item.mechType === 'StoredMechanic'}
                     <div
-                      class="grid bg-amber-600 rounded-sm h-[16px] w-[16px] p-auto place-content-center"
+                      class="grid bg-amber-600 rounded-sm h-4 w-4 p-auto place-content-center"
                     >
                       <Clock size={12} strokeWidth={2} />
                     </div>
                   {/if}
                   {#if item.mechType === 'Enrage'}
                     <div
-                      class="grid bg-pink-800 rounded-sm h-[16px] w-[16px] p-auto place-items-center"
+                      class="grid bg-pink-800 rounded-sm h-4 w-4 p-auto place-items-center"
                     >
                       <Skull size={12} strokeWidth={2} />
                     </div>

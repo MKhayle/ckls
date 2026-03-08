@@ -102,7 +102,7 @@
     </div>
 
     <div
-      class="flex flex-wrap min-w-full justify-between mb-8 card border-[1px] border-surface-200-800 p-4"
+      class="flex flex-wrap min-w-full justify-between mb-8 card border border-surface-200-800 p-4"
     >
       <div class="space-y-5 v-full dark">
         <div class="card preset-outlined-warning-500 gap-4 p-4">
@@ -141,7 +141,7 @@
       </div>
       <div class="grow"></div>
       <div class="my-4 xl:my-0">
-          <img style:max-height={'400px'} src={'./strats/healerout/overall.png'} />
+          <img style:max-height={'400px'} src={'./strats/healerout/overall.png'} alt="Vue générale de la stratégie"/>
       </div>
     </div>
 
@@ -150,7 +150,7 @@
     {:else if typeof strat === 'undefined'}
       <div></div>
     {:else}
-      <div class="card border-[1px] border-surface-200-800 p-4">
+      <div class="card border border-surface-200-800 p-4">
         <div class="flex flex-wrap items-center gap-2">
           <div class="content-center">
             <div class="capitalize font-semibold text-2xl mb-0">{optionsString}</div>
@@ -248,6 +248,7 @@
                   style:transform={step.alignmentTransforms
                     ? step.alignmentTransforms[alignment]
                     : step.transform}
+                    alt="{step.description}"
                 />
               </div>
             {/key}
@@ -261,9 +262,6 @@
                 classes="card preset-tonal-primary border border-primary-700 text-surface-50"
               >
                 <Accordion.Item panelPadding="py-4 px-4" value="swaps">
-                  {#snippet lead()}
-                    <img width="24px" src={'/swap-icon.png'} />
-                  {/snippet}
                   {#snippet control()}
                     <span class="text-xl">{strat.swapNote}</span>
                   {/snippet}
@@ -295,6 +293,7 @@
                               style:transform={step.alignmentTransforms
                                 ? step.alignmentTransforms[alignment]
                                 : step.transform}
+                                alt="{step.description}"
                             />
                           </div>
                         {/key}

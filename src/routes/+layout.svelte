@@ -30,7 +30,7 @@
           <a
             href="{base}/"
             class="flex flex-row items-center text-2xl font-semibold my-4 md:my-0 justify-self-center gap-1"
-            >C koi la strat <img width="32px" src="{base}/ckls-small-800.png" /></a
+            >C koi la strat <img width="32px" src="{base}/ckls-small-800.png" alt="Logo de C koi la strat" /></a
           >
           <div
             class="card preset-outlined-secondary-500 gap-4 p-4 md:justify-self-end text-sm hidden md:block"

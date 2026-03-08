@@ -1,7 +1,6 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { importAssets } from 'svelte-preprocess-import-assets';
-import { SiReact, SiSvelte, SiDocker } from "@icons-pack/svelte-simple-icons";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
