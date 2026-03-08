@@ -9,7 +9,7 @@
   --card-foreground: 222.2 84% 4.9%;
   --popover: 0 0% 100%;
   --popover-foreground: 222.2 84% 4.9%;
-  --primary: 262.1 83.3% 57.8%;
+  --primary: 210 53.3% 57.8%;
   --primary-foreground: 0 0% 100%;
   --secondary: 210 40% 96.1%;
   --secondary-foreground: 222.2 47.4% 11.2%;
@@ -37,8 +37,8 @@
   --surface-950: 230 45% 10%;
   --surface-1000: 240 55% 7%;
 
-  --primary-500: 262.1 83.3% 57.8%;
-  --secondary-500: 262.1 83.3% 57.8%;
+  --primary-500: 210 53.3% 57.8%;
+  --secondary-500: 217.2 32.6% 17.5%;
   --warning-500: 35 92% 62%;
   --success-500: 142 70% 45%;
   --error-500: 0 84% 60%;
@@ -67,13 +67,13 @@
 }
 
 .dark {
-  --background: 222.2 84% 4.9%;
+  --background: 210 84% 4.9%;
   --foreground: 210 40% 98%;
   --card: 222.2 84% 6%;
   --card-foreground: 210 40% 98%;
   --popover: 222.2 84% 6%;
   --popover-foreground: 210 40% 98%;
-  --primary: 262.1 83.3% 57.8%;
+  --primary: 210 53.3% 57.8%;
   --primary-foreground: 0 0% 100%;
   --secondary: 217.2 32.6% 17.5%;
   --secondary-foreground: 210 40% 98%;

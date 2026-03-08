@@ -30,12 +30,12 @@
           <a
             href="{base}/"
             class="flex flex-row items-center text-2xl font-semibold my-4 md:my-0 justify-self-center gap-1"
-            >WTFDIG<img width="32px" src="{base}/wtfdig-small-800.png" /></a
+            >C koi la strat <img width="32px" src="{base}/ckls-small-800.png" /></a
           >
           <div
             class="card preset-outlined-secondary-500 gap-4 p-4 md:justify-self-end text-sm hidden md:block"
           >
-            WTFDIG is now at <a
+            C koi la strat ?! est un fork de <a
               target="_blank"
               rel="noopener noreferrer"
               class="anchor"
@@ -53,40 +53,36 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 w-full justify-between">
           <div class="text-sm text-gray-500 dark:text-gray-400">
             <div>
-              Comments? Questions? Something incorrect? <a
+              Des commentaires ? Des questions ? Quelque chose est incorrect ?
+            </div>
+            <div> Ouvrez <a
                 target="_blank"
                 rel="noopener noreferrer"
                 class="anchor"
-                href="https://docs.google.com/forms/d/e/1FAIpQLScJEJ43FKjSRJ2MyLuGXznce-P_SQNyPLWga_Xme_CJKPiQIQ/viewform?usp=header"
-                >Let me know.</a
+                href="http://github.com/MKhayle/ckls/"
+                >une Issue sur GitHub </a
+              >
+              ou <a
+                target="_blank"
+                rel="noopener noreferrer"
+                class="anchor"
+                href="https://discord.com/servers/conclave-d-exploration-1094307976073969685"
+                >laissez-nous un message sur Discord.</a
               >
             </div>
             <div>
-              FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. FINAL
+              FINAL FANTASY est une marqué déposée de Square Enix Holdings Co., Ltd. FINAL
               FANTASY XIV © SQUARE ENIX
             </div>
           </div>
           <div class="text-sm text-gray-500 dark:text-gray-400 lg:text-end mt-4 lg:mt-0">
-            <div>Made by Mara Kaminagi @ Adamantoise</div>
-            <div>
-              You can find me on <a
+            <div>WTFDIG a été créé par Mara Kaminagi @ Adamantoise</div>
+            <div>C koi la strat ?! a été créé pour le <a
                 target="_blank"
                 rel="noopener noreferrer"
                 class="anchor"
-                href="https://bsky.app/profile/shittyidiot.com">Bluesky</a
-              >
-              or
-              <a target="_blank" rel="noopener noreferrer" class="anchor" href="https://x.com/mczub"
-                >Twitter</a
-              >
-            </div>
-            <div>
-              Really love the site? <a
-                target="_blank"
-                rel="noopener noreferrer"
-                class="anchor"
-                href="https://ko-fi.com/mczub">Buy me a coffee!</a
-              >
+                href="https://discord.com/servers/conclave-d-exploration-1094307976073969685">Conclave d'Exploration</a
+              >.
             </div>
           </div>
         </div>
