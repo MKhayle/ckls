@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./wtfdig
+        working-directory: ./ckls
     steps:
       - name: Checkout
         uses: actions/checkout@v6.0.1
@@ -31,7 +31,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # this should match the `pages` option in your adapter-static options
-          path: './wtfdig/build/'
+          path: './ckls/build/'
 
   deploy:
     needs: build_site
