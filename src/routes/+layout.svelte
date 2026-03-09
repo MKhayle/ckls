@@ -71,7 +71,7 @@
               >
             </div>
             <div>
-              FINAL FANTASY est une marqué déposée de Square Enix Holdings Co., Ltd. FINAL
+              FINAL FANTASY est une marque déposée de Square Enix Holdings Co., Ltd. FINAL
               FANTASY XIV © SQUARE ENIX
             </div>
           </div>

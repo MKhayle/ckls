@@ -80,7 +80,7 @@
                 >
               </div>
               <div class="flex flex-col">
-                <div class="text-left text-sm font-semibold mb-3">Chaotique</div>
+                <div class="text-left text-sm font-semibold mb-3">Raid en Alliance Chaotique</div>
                 <div class="flex flex-col gap-4">
                   <a
                     href="{base}/car/cod"
@@ -158,7 +158,7 @@
                 >
               </div>
               <div class="flex flex-col">
-                <div class="text-left text-sm font-semibold mb-3">Alliance en Raid Chaotique</div>
+                <div class="text-left text-sm font-semibold mb-3">Raid en Alliance Chaotique</div>
                 <div class="flex flex-col gap-4">
                   <a
                     href="https://carguideconclave.crd.co/"
