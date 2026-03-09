@@ -29,7 +29,7 @@
           href="https://discord.com/servers/conclave-d-exploration-1094307976073969685"
           class="flex flex-col items-start mx-2"
         >
-          <div class="flex flex-row items-center gap-2 text-lg">
+          <div class="flex flex-row items-center gap-2 text-lg"><strong>C koi la strat ?!</strong> existe grâce au
             <SiDiscord class="size-6 text-white " /><span class="font-semibold"> Conclave d'Exploration</span>
           </div>
           <div class="text-base text-surface-400">Communauté francophone dédiée aux contenus de grande envergure.</div>
@@ -41,7 +41,7 @@
           class="card bg-emerald-900 flex flex-col preset-filled-surface-100-900 border border-surface-200-800 p-4 text-center gap-4"
         >
           <button class="flex w-full items-center justify-between" onclick={() => toggle('forays')}>
-            <div class="text-lg font-bold">Stratégies simplifiées</div>
+            <div class="text-lg font-bold">Positions & responsabilités</div>
             <ChevronDown
               class="h-4 w-4 opacity-50 transition-transform duration-200 {openState['forays']
                 ? 'rotate-180'
@@ -75,7 +75,7 @@
                 >
                 <a
                   href="{base}/upcoming"
-                  class="btn preset-tonal-secondary disabled border bg-red-800"
+                  class="btn preset-tonal-secondary disabled border border-red-800"
                   >Tour Fourchue de la magie (FTM)</a
                 >
               </div>
@@ -113,7 +113,7 @@
                 <div class="flex flex-col gap-4">
                   <a
                     href="https://baguideconclave.crd.co/"
-                    class="btn preset-tonal-secondary disabled border border-sky-600"
+                    class="btn preset-tonal-secondary border border-sky-600"
                     >Arsenal de Baldesion (BA) 
                     <ExternalLink
                       class="h-4 w-4 opacity-50
@@ -125,8 +125,8 @@
               </div>
               <div class="flex flex-col gap-4">
                 <a
-                  href="https://drsguideconclave.crd.co/#"
-                  class="btn preset-tonal-secondary disabled border border-amber-300"
+                  href="https://drsguideconclave.crd.co/"
+                  class="btn preset-tonal-secondary border border-amber-300"
                   >Delubrum Reginae : Sadique (DRS)
                   <ExternalLink
                       class="h-4 w-4 opacity-50
@@ -138,7 +138,7 @@
               <div class="flex flex-col gap-4">
                 <a
                   href="https://ftguideconclave.crd.co/"
-                  class="btn preset-tonal-secondary disabled border border-fuchsia-600"
+                  class="btn preset-tonal-secondary border border-fuchsia-600"
                   >Tour Fourchue de la force (FTB)
                   <ExternalLink
                       class="h-4 w-4 opacity-50
@@ -148,7 +148,7 @@
                 >
                 <a
                   href={'#'}
-                  class="btn preset-tonal-secondary disabled border bg-red-800"
+                  class="btn preset-tonal-secondary disabled border border-red-800"
                   >Tour Fourchue de la magie (FTM)
                   <ExternalLink
                       class="h-4 w-4 opacity-50

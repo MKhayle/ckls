@@ -110,7 +110,7 @@ const navItemsGuides = [
   <Sidebar.Content class="bg-background">
     <Sidebar.Group class="bg-emerald-900">
       <Sidebar.GroupLabel class="text-lg my-2 font-bold flex flex-row gap-2">
-                <MapPinCheck class="size-6 text-white" /> Stratégies simplifiées</Sidebar.GroupLabel>
+                <MapPinCheck class="size-6 text-white" /> Positions & responsabilités</Sidebar.GroupLabel>
       <Sidebar.GroupAction class="my-1" title="Fermer" onclick={() => sidebar.toggle()}>
         <div><ArrowLeftFromLine className="size-8" /></div>
       </Sidebar.GroupAction>
