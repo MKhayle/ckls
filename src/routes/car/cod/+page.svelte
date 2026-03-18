@@ -106,9 +106,9 @@
     >
       <div class="space-y-5 v-full dark">
         <div class="card preset-outlined-warning-500 gap-4 p-4">
-          <p>Depuis le Patch 7.16 et <strong>pour le client anglais uniquement</strong>, les attaques "Lateral-core Phaser" et "Core-lateral Phaser" ont été interverties</p>
-          <p>Lateral-core Phaser = Allez devant d'abord, sur les côtés ensuite</p>
-          <p>Core-lateral Phaser = Allez sur les côtés d'abord, devant ensuite</p>
+          <p>"Swap" correspond au Chaos Rampant, qui <strong>échange</strong> votre position avec un autre joueur.</p>
+          <p>La "Priorité" définit <strong>l'ordre</strong> dans lequel les déplacements doivent être effectués.</p>
+          <p></p>
         </div>
         <div>
           <div class="text-xl mb-2">Dans quelle alliance êtes-vous ?</div>
@@ -210,7 +210,7 @@
             <Switch
               name="spotlight-toggle"
               checked={spotlight}
-              onCheckedChange={(e) => (spotlight = e.checked)}>Highlight my spots</Switch
+              onCheckedChange={(e) => (spotlight = e.checked)}>Focalisation sur mes positions</Switch
             >
           </div>
         </div>

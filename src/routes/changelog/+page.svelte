@@ -8,6 +8,7 @@
   </header>
   <article class="prose dark:prose-invert max-w-none">
     <div class="">
+      <div>18/03/2026 : Mise à jour des images et correction des positions des focalisations de l'Alliance A.</div>
       <div>05/03/2026 : Création du fork depuis WTFDIG.</div>
     </div>
   </article>

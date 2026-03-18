@@ -19,7 +19,7 @@
     {
       title: 'Contenus d\'Exploration',
       url: '#',
-      defaultOpen: true,
+      defaultOpen: false,
       items: [
         {
           title: 'Arsenal de Baldesion',
