@@ -62,37 +62,37 @@ const healerOutStrat: Strat = {
           mechanic: 'paires',
           description: 'Proche du boss\nIntérieur\nEn duo avec le Soigneur de l\'Alliance B',
           imageUrl: './strats/healerout/platform-west-pairs.png',
-          mask: 'radial-gradient(circle at 71.0% 49.1%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
+          mask: 'radial-gradient(circle at 77.0% 51.1%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
         },
         {
           mechanic: 'spread',
           description: 'Intérieur',
           imageUrl: './strats/healerout/platform-west-spread.png',
-          mask: 'radial-gradient(circle at 85.8% 50.5%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
+          mask: 'radial-gradient(circle at 88% 50%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
         },
         {
           mechanic: 'tours',
           description: 'Nord/Extérieur',
           imageUrl: './strats/healerout/platform-west-towers.png',
-          mask: 'radial-gradient(circle at 53.7% 17.7%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 33.0% 78.0%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+          mask: 'radial-gradient(circle at 57.7% 19.7%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 36.5% 73.0%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
         },
         {
           mechanic: 'graine',
           description: 'Aucune, restez sur le boss',
           imageUrl: './strats/healerout/platform-west-brambles.png',
-          mask: 'radial-gradient(circle at 52% 48%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
+          mask: 'radial-gradient(circle at 57% 49%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
         },
         {
           mechanic: 'aoes',
           description: 'Platform Inside North',
           imageUrl: './strats/healerout/platform-west-aoe-spread.png',
-          mask: 'radial-gradient(circle at 76% 37%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
+          mask: 'radial-gradient(circle at 83% 39%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         },
         {
           mechanic: 'swap',
           description: 'Outside',
           imageUrl: './strats/healerout/platform-west-swap.png',
-          mask: 'radial-gradient(ellipse 100% 250% at 23% 50%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
+          mask: 'radial-gradient(ellipse 100% 250% at 18% 50%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
         }
       ],
       swapNote: 'I got a clean swap to the NE or SE tiles! Now what?',
@@ -101,7 +101,7 @@ const healerOutStrat: Strat = {
           mechanic: 'start',
           description: 'NE/SE west of corner tile',
           imageUrl: './strats/healerout/postswap-a-tiles-east.png',
-          mask: 'radial-gradient(circle at 36.5% 21.3%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 34.5% 77.7%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
+          mask: 'radial-gradient(circle at 30.2% 25%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 30.2% 75%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
         },
         {
           mechanic: 'priority: t > m > r',
@@ -111,7 +111,7 @@ const healerOutStrat: Strat = {
           mechanic: 'chaser',
           description: 'CCW of corner tile',
           imageUrl: './strats/healerout/tiles-east-chasers.png',
-          mask: 'radial-gradient(circle at 36.4% 21.1%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 60.3% 68.7%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+          mask: 'radial-gradient(circle at 28.5% 20%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 53% 67.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
         }
       ]
     },
@@ -126,7 +126,7 @@ const healerOutStrat: Strat = {
           mechanic: 'start',
           description: 'SW inner tile',
           imageUrl: './strats/healerout/tiles-southwest.png',
-          mask: 'radial-gradient(circle at 81% 50%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
+          mask: 'radial-gradient(circle at 69% 50%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
         },
         {
           mechanic: 'priority: t>m>r',
@@ -137,21 +137,21 @@ const healerOutStrat: Strat = {
       swapStrats: [
         {
           mechanic: 'paires',
-          description: 'Close to boss\nInside\nw/ Healer from B',
-          imageUrl: './strats/healerout/postswap-a-platform-east-pairs.png',
-          mask: 'radial-gradient(circle at 30.7% 49.9%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
+          description: 'Proche du boss\nIntérieur\nEn duo avec le Soigneur de l\'Alliance B',
+          imageUrl: './strats/healerout/platform-west-pairs.png',
+          mask: 'radial-gradient(circle at 77.0% 51.1%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
         },
         {
           mechanic: 'tours',
-          description: 'North/Outside',
-          imageUrl: './strats/healerout/postswap-a-platform-east-towers.png',
-          mask: 'radial-gradient(circle at 49.5% 18%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 68% 78%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+          description: 'Nord/Extérieur',
+          imageUrl: './strats/healerout/platform-west-towers.png',
+          mask: 'radial-gradient(circle at 57.7% 19.7%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 36.5% 73.0%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
         },
         {
           mechanic: 'aoes',
           description: 'Platform Inside North',
           imageUrl: './strats/healerout/postswap-platform-east-aoe-spread.png',
-          mask: 'radial-gradient(circle at 20.5% 37.9%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
+          mask: 'radial-gradient(circle at 8.5% 35.9%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         }
       ]
     },
@@ -166,37 +166,37 @@ const healerOutStrat: Strat = {
           mechanic: 'paires',
           description: 'Far from boss\nNorth Outside\nw/ Ranged',
           imageUrl: './strats/healerout/platform-west-pairs.png',
-          mask: 'radial-gradient(circle at 24.0% 22.5%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
+          mask: 'radial-gradient(circle at 20.5% 25%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
         },
         {
           mechanic: 'spread',
           description: 'Outside',
           imageUrl: './strats/healerout/platform-west-spread.png',
-          mask: 'radial-gradient(circle at 20.1% 50.5%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
+          mask: 'radial-gradient(circle at 28% 50%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
         },
         {
           mechanic: 'tours',
           description: 'South/Inside',
           imageUrl: './strats/healerout/platform-west-towers.png',
-          mask: 'radial-gradient(circle at 52.3% 35.3%, black 13%, rgba(0, 0, 0, 0.2) 13%), radial-gradient(circle at 72.4% 78.2%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+          mask: 'radial-gradient(circle at 57.3% 35%, black 13%, rgba(0, 0, 0, 0.2) 13%), radial-gradient(circle at 76.5% 73%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
         },
         {
           mechanic: 'graine',
           description: 'Inside North',
           imageUrl: './strats/healerout/platform-west-brambles.png',
-          mask: 'radial-gradient(circle at 60.6% 35.6%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
+          mask: 'radial-gradient(circle at 70.6% 35.6%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
         },
         {
           mechanic: 'aoes',
           description: 'Platform Outside South',
           imageUrl: './strats/healerout/platform-west-aoe-spread.png',
-          mask: 'radial-gradient(circle at 37.1% 63.5%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
+          mask: 'radial-gradient(circle at 33.5% 67%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         },
         {
           mechanic: 'swap',
           description: 'Inside',
           imageUrl: './strats/healerout/platform-west-swap.png',
-          mask: 'radial-gradient(ellipse 100% 250% at 83.3% 49.8%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
+          mask: 'radial-gradient(ellipse 100% 250% at 82.3% 49.8%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
         }
       ],
       swapNote: 'I got a clean swap to the East platform! Now what?',
@@ -205,19 +205,19 @@ const healerOutStrat: Strat = {
           mechanic: 'paires',
           description: 'Far from boss\nNorth Outside\nw/ Ranged',
           imageUrl: './strats/healerout/postswap-h-platform-east-pairs.png',
-          mask: 'radial-gradient(circle at 84.7% 20.4%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
+          mask: 'radial-gradient(circle at 77% 28%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
         },
         {
           mechanic: 'tours',
           description: 'South/Inside',
           imageUrl: './strats/healerout/postswap-h-platform-east-towers.png',
-          mask: 'radial-gradient(circle at 48.8% 34.3%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 31% 78.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+          mask: 'radial-gradient(circle at 43.8% 34.3%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 23% 75%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
         },
         {
           mechanic: 'aoes',
           description: 'Platform Outside South',
           imageUrl: './strats/healerout/postswap-platform-east-aoe-spread.png',
-          mask: 'radial-gradient(circle at 61.9% 62.3%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
+          mask: 'radial-gradient(circle at 62.5% 64%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         }
       ]
     },
@@ -232,37 +232,37 @@ const healerOutStrat: Strat = {
           mechanic: 'paires',
           description: 'Far from boss\nSouth Outside\nw/ Melee',
           imageUrl: './strats/healerout/platform-west-pairs.png',
-          mask: 'radial-gradient(circle at 24.2% 79.3%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
+          mask: 'radial-gradient(circle at 20.5% 75.5%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
         },
         {
           mechanic: 'spread',
           description: 'South',
           imageUrl: './strats/healerout/platform-west-spread.png',
-          mask: 'radial-gradient(circle at 55.7% 79.7%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
+          mask: 'radial-gradient(circle at 61.7% 71.7%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
         },
         {
           mechanic: 'tours',
           description: 'South/Inside',
           imageUrl: './strats/healerout/platform-west-towers.png',
-          mask: 'radial-gradient(circle at 52.3% 35.3%, black 13%, rgba(0, 0, 0, 0.2) 13%), radial-gradient(circle at 72.4% 78.2%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+          mask: 'radial-gradient(circle at 58.3% 35.3%, black 13%, rgba(0, 0, 0, 0.2) 13%), radial-gradient(circle at 77.4% 73.2%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
         },
         {
           mechanic: 'graine',
           description: 'Outside North',
           imageUrl: './strats/healerout/platform-west-brambles.png',
-          mask: 'radial-gradient(circle at 37.8% 32.6%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
+          mask: 'radial-gradient(circle at 29.7% 36.5%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
         },
         {
           mechanic: 'aoes',
           description: 'Ring Outside South',
           imageUrl: './strats/healerout/platform-west-aoe-spread.png',
-          mask: 'radial-gradient(circle at 29.4% 87.0%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
+          mask: 'radial-gradient(circle at 23% 91.0%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         },
         {
           mechanic: 'swap',
           description: 'Inside',
           imageUrl: './strats/healerout/platform-west-swap.png',
-          mask: 'radial-gradient(ellipse 100% 250% at 83.3% 49.8%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
+          mask: 'radial-gradient(ellipse 100% 250% at 81.5% 49.8%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
         }
       ],
       swapNote: 'I got a clean swap to the East platform! Now what?',
@@ -271,19 +271,19 @@ const healerOutStrat: Strat = {
           mechanic: 'paires',
           description: 'Far from boss\nSouth Outside\nw/ Melee',
           imageUrl: './strats/healerout/postswap-h-platform-east-pairs.png',
-          mask: 'radial-gradient(circle at 81% 74.5%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
+          mask: 'radial-gradient(circle at 77% 72.5%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
         },
         {
           mechanic: 'tours',
           description: 'South/Inside',
           imageUrl: './strats/healerout/postswap-h-platform-east-towers.png',
-          mask: 'radial-gradient(circle at 48.8% 34.3%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 31% 78.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+          mask: 'radial-gradient(circle at 44% 34.3%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 22.8% 75%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
         },
         {
           mechanic: 'aoes',
           description: 'Ring Outside South',
           imageUrl: './strats/healerout/postswap-platform-east-aoe-spread.png',
-          mask: 'radial-gradient(circle at 67.9% 86.6%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
+          mask: 'radial-gradient(circle at 77.9% 88%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         }
       ]
     },
@@ -298,37 +298,37 @@ const healerOutStrat: Strat = {
           mechanic: 'paires',
           description: 'Close to boss\nSouth Outside\nw/ Healer 2',
           imageUrl: './strats/healerout/platform-west-pairs.png',
-          mask: 'radial-gradient(circle at 35.3% 68.5%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
+          mask: 'radial-gradient(circle at 36.3% 64.5%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
         },
         {
           mechanic: 'spread',
           description: 'South Outside',
           imageUrl: './strats/healerout/platform-west-spread.png',
-          mask: 'radial-gradient(circle at 21.7% 76.2%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
+          mask: 'radial-gradient(circle at 35.7% 65.2%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
         },
         {
           mechanic: 'tours',
-          description: 'North/Outside',
+          description: 'Nord/Extérieur',
           imageUrl: './strats/healerout/platform-west-towers.png',
-          mask: 'radial-gradient(circle at 53.7% 17.7%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 33.0% 78.0%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+          mask: 'radial-gradient(circle at 57.7% 19.7%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 36.5% 73.0%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
         },
         {
           mechanic: 'graine',
           description: 'None, stay on boss',
           imageUrl: './strats/healerout/platform-west-brambles.png',
-          mask: 'radial-gradient(circle at 51% 48%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
+          mask: 'radial-gradient(circle at 44% 43%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
         },
         {
           mechanic: 'aoes',
           description: 'Platform Inside South',
           imageUrl: './strats/healerout/platform-west-aoe-spread.png',
-          mask: 'radial-gradient(circle at 77.3% 60.9%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
+          mask: 'radial-gradient(circle at 84.3% 66.9%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         },
         {
           mechanic: 'swap',
           description: 'Outside',
           imageUrl: './strats/healerout/platform-west-swap.png',
-          mask: 'radial-gradient(ellipse 100% 250% at 23% 50%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
+          mask: 'radial-gradient(ellipse 100% 250% at 18% 50%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
         }
       ],
       swapNote: 'I got a clean swap to the NE or SE tiles! Now what?',
@@ -338,7 +338,7 @@ const healerOutStrat: Strat = {
           description:
             "NE/SE North/South cubby\nIf the swap puts you in East cubby, that's fine too.",
           imageUrl: './strats/healerout/postswap-a-tiles-east.png',
-          mask: 'radial-gradient(circle at 58.9% 9.7%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 58.9% 90.4%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
+          mask: 'radial-gradient(circle at 50% 14%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 50% 85.4%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
         },
         {
           mechanic: 'priority: t>m>r',
@@ -348,7 +348,7 @@ const healerOutStrat: Strat = {
           mechanic: 'chaser',
           description: 'NE/SE North/South cubby',
           imageUrl: './strats/healerout/tiles-east-chasers.png',
-          mask: 'radial-gradient(circle at 59.8% 6.3%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 59.8% 93.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+          mask: 'radial-gradient(circle at 52% 8%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 52% 92%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
         }
       ]
     },
@@ -363,7 +363,7 @@ const healerOutStrat: Strat = {
           mechanic: 'start',
           description: 'SW South cubby',
           imageUrl: './strats/healerout/tiles-southwest.png',
-          mask: 'radial-gradient(circle at 49.7% 76.9%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
+          mask: 'radial-gradient(circle at 49.7% 74.9%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
         },
         {
           mechanic: 'priority: t>m>r',
@@ -376,19 +376,19 @@ const healerOutStrat: Strat = {
           mechanic: 'paires',
           description: 'Close to boss\nSouth Outside\nw/ Healer 2',
           imageUrl: './strats/healerout/postswap-a-platform-east-pairs.png',
-          mask: 'radial-gradient(circle at 67.5% 64.6%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
+          mask: 'radial-gradient(circle at 60% 62%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
         },
         {
           mechanic: 'tours',
           description: 'North/Outside',
           imageUrl: './strats/healerout/postswap-a-platform-east-towers.png',
-          mask: 'radial-gradient(circle at 49.5% 18%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 68% 78%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+          mask: 'radial-gradient(circle at 44.5% 19%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 63.5% 75%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
         },
         {
           mechanic: 'aoes',
           description: 'Platform Inside South',
           imageUrl: './strats/healerout/postswap-platform-east-aoe-spread.png',
-          mask: 'radial-gradient(circle at 22% 59.8%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
+          mask: 'radial-gradient(circle at 8% 63.8%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         }
       ]
     },
@@ -403,37 +403,37 @@ const healerOutStrat: Strat = {
           mechanic: 'paires',
           description: 'Close to boss\nNorth Outside\nw/ Healer 1',
           imageUrl: './strats/healerout/platform-west-pairs.png',
-          mask: 'radial-gradient(circle at 35.7% 35.2%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
+          mask: 'radial-gradient(circle at 35.7% 36.2%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
         },
         {
           mechanic: 'spread',
           description: 'North Outside',
           imageUrl: './strats/healerout/platform-west-spread.png',
-          mask: 'radial-gradient(circle at 20.8% 24.1%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
+          mask: 'radial-gradient(circle at 36% 33%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
         },
         {
           mechanic: 'tours',
-          description: 'North/Outside',
+          description: 'Nord/Extérieur',
           imageUrl: './strats/healerout/platform-west-towers.png',
-          mask: 'radial-gradient(circle at 53.7% 17.7%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 33.0% 78.0%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+          mask: 'radial-gradient(circle at 57.7% 19.7%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 36.5% 73.0%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
         },
         {
           mechanic: 'graine',
           description: 'Inside South',
           imageUrl: './strats/healerout/platform-west-brambles.png',
-          mask: 'radial-gradient(circle at 61.9% 63.9%, black 10%, rgba(0, 0, 0, 0.4) 0%)'
+          mask: 'radial-gradient(circle at 71% 63.9%, black 10%, rgba(0, 0, 0, 0.4) 0%)'
         },
         {
           mechanic: 'aoes',
           description: 'Platform Outside North',
           imageUrl: './strats/healerout/platform-west-aoe-spread.png',
-          mask: 'radial-gradient(circle at 34.8% 36.4%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
+          mask: 'radial-gradient(circle at 33.8% 37.8%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         },
         {
           mechanic: 'swap',
           description: 'Outside',
           imageUrl: './strats/healerout/platform-west-swap.png',
-          mask: 'radial-gradient(ellipse 100% 250% at 23% 50%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
+          mask: 'radial-gradient(ellipse 100% 250% at 18% 50%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
         }
       ],
       swapNote: 'I got a clean swap to the NE or SE tiles! Now what?',
@@ -443,7 +443,7 @@ const healerOutStrat: Strat = {
           description:
             "NE/SE East cubby\nIf the swap puts you in North/South cubby, that's fine too.",
           imageUrl: './strats/healerout/postswap-a-tiles-east.png',
-          mask: 'radial-gradient(circle at 81.5% 20.5%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 82.7% 78.2%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
+          mask: 'radial-gradient(circle at 72.5% 24.5%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 72.5% 75.5%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
         },
         {
           mechanic: 'priority: t>m>r',
@@ -454,7 +454,7 @@ const healerOutStrat: Strat = {
           mechanic: 'chaser',
           description: 'NE/SE East cubby',
           imageUrl: './strats/healerout/tiles-east-chasers.png',
-          mask: 'radial-gradient(circle at 80.6% 23.8%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 88.5% 79.2%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+          mask: 'radial-gradient(circle at 77% 22.1%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 77% 79.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
         }
       ]
     },
@@ -469,7 +469,7 @@ const healerOutStrat: Strat = {
           mechanic: 'start',
           description: 'SW West cubby',
           imageUrl: './strats/healerout/tiles-southwest.png',
-          mask: 'radial-gradient(circle at 19.7% 48.9%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
+          mask: 'radial-gradient(circle at 26.7% 50.9%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
         },
         {
           mechanic: 'priority: t>m>r',
@@ -483,19 +483,19 @@ const healerOutStrat: Strat = {
           mechanic: 'paires',
           description: 'Close to boss\nNorth Outside\nw/ Healer 1',
           imageUrl: './strats/healerout/postswap-a-platform-east-pairs.png',
-          mask: 'radial-gradient(circle at 70.5% 29.9%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
+          mask: 'radial-gradient(circle at 60% 38%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
         },
         {
           mechanic: 'tours',
           description: 'North/Outside',
           imageUrl: './strats/healerout/postswap-a-platform-east-towers.png',
-          mask: 'radial-gradient(circle at 49.5% 18%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 68% 78%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+          mask: 'radial-gradient(circle at 45% 18.5%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 63% 75%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
         },
         {
           mechanic: 'aoes',
           description: 'Platform Outside North',
           imageUrl: './strats/healerout/postswap-platform-east-aoe-spread.png',
-          mask: 'radial-gradient(circle at 59.6% 36.4%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
+          mask: 'radial-gradient(circle at 63.5% 36%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         }
       ]
     },
