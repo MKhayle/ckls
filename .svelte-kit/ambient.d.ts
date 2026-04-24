@@ -49,13 +49,7 @@ declare module '$env/static/private' {
 	export const COMPUTERNAME: string;
 	export const ComSpec: string;
 	export const DriverData: string;
-	export const EFC_30532_1262719628: string;
-	export const EFC_30532_1592913036: string;
-	export const EFC_30532_2283032206: string;
-	export const EFC_30532_2775293581: string;
-	export const EFC_30532_3789132940: string;
-	export const FPS_BROWSER_APP_PROFILE_STRING: string;
-	export const FPS_BROWSER_USER_PROFILE_STRING: string;
+	export const EFC_10272_1592913036: string;
 	export const GIT_ASKPASS: string;
 	export const GIT_LFS_PATH: string;
 	export const HOMEDRIVE: string;
@@ -95,6 +89,7 @@ declare module '$env/static/private' {
 	export const PWD: string;
 	export const PYTHONPATH: string;
 	export const RELOADEDIIMODS: string;
+	export const SESSIONNAME: string;
 	export const SystemDrive: string;
 	export const SystemRoot: string;
 	export const TEMP: string;
@@ -214,13 +209,7 @@ declare module '$env/dynamic/private' {
 		COMPUTERNAME: string;
 		ComSpec: string;
 		DriverData: string;
-		EFC_30532_1262719628: string;
-		EFC_30532_1592913036: string;
-		EFC_30532_2283032206: string;
-		EFC_30532_2775293581: string;
-		EFC_30532_3789132940: string;
-		FPS_BROWSER_APP_PROFILE_STRING: string;
-		FPS_BROWSER_USER_PROFILE_STRING: string;
+		EFC_10272_1592913036: string;
 		GIT_ASKPASS: string;
 		GIT_LFS_PATH: string;
 		HOMEDRIVE: string;
@@ -260,6 +249,7 @@ declare module '$env/dynamic/private' {
 		PWD: string;
 		PYTHONPATH: string;
 		RELOADEDIIMODS: string;
+		SESSIONNAME: string;
 		SystemDrive: string;
 		SystemRoot: string;
 		TEMP: string;
