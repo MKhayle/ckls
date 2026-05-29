@@ -65,7 +65,7 @@ const options = {
 		<h1>404</h1>\r
 		<p>Status: ` + status + "</p>\r\n		<p>Message: " + message + "</p>\r\n    </div>\r\n  </body>\r\n</html>\r\n"
   },
-  version_hash: "1ata81p"
+  version_hash: "1asen91"
 };
 async function get_hooks() {
   let handle;

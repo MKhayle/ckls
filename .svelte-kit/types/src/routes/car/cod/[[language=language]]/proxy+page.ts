@@ -1,6 +1,7 @@
 // @ts-nocheck
 import type { PageLoad } from './$types';
 
+export const trailingSlash = 'always';
 export const entries = () => [{}, { language: 'fr' }, { language: 'en' }];
 
 export const load = ({ params }: Parameters<PageLoad>[0]) => {

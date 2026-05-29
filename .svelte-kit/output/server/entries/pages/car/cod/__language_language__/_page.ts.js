@@ -1,3 +1,4 @@
+const trailingSlash = "always";
 const entries = () => [{}, { language: "fr" }, { language: "en" }];
 const load = ({ params }) => {
   const language = params.language === "en" ? "english" : params.language === "fr" ? "french" : void 0;
@@ -1592,5 +1593,6 @@ const healerOutStrat = {
 };
 export {
   entries,
-  load
+  load,
+  trailingSlash
 };
