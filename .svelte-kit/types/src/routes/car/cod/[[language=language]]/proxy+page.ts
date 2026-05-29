@@ -1,6 +1,8 @@
 // @ts-nocheck
 import type { PageLoad } from './$types';
 
+export const entries = () => [{}, { language: 'fr' }, { language: 'en' }];
+
 export const load = ({ params }: Parameters<PageLoad>[0]) => {
   const language =
     params.language === 'en' ? 'english' : params.language === 'fr' ? 'french' : undefined;

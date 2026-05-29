@@ -1,3 +1,4 @@
+const entries = () => [{}, { language: "fr" }, { language: "en" }];
 const load = ({ params }) => {
   const language = params.language === "en" ? "english" : params.language === "fr" ? "french" : void 0;
   return {
@@ -1590,5 +1591,6 @@ const healerOutStrat = {
   ]
 };
 export {
+  entries,
   load
 };
