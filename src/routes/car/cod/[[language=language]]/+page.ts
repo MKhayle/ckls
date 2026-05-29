@@ -123,7 +123,7 @@ const healerOutStrat: Strat = {
       swapStrats: [
         {
           mechanic: localizedText('Start', 'Position initiale'),
-          description: localizedText('NE/SE west of corner tile', "NE/SE sur la tuile d'intérieur"),
+          description: localizedText('NE/SE west of corner tile', "NE/SE sur la tuile vers l'intérieur"),
           imageUrl: 'car/strats/healerout/postswap-a-tiles-east.png',
           mask: 'radial-gradient(circle at 30.2% 25%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 30.2% 75%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
         },
@@ -474,7 +474,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Close to boss\nSouth Outside\nw/ Healer 2',
-            'Près du boss\nExtérieur Sud\nEn duo avec le Soigneur 2'
+            'Près du boss\nÀ l\'Extérieur au Sud\nEn duo avec le Soigneur 2'
           ),
           imageUrl: 'car/strats/healerout/postswap-a-platform-east-pairs.png',
           mask: 'radial-gradient(circle at 60% 62%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
@@ -526,7 +526,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('Brambles', 'Graines'),
-          description: localizedText('Inside South', 'Intérieur au Sud'),
+          description: localizedText('Inside South', 'Au Sud vers l'intérieur'),
           imageUrl: 'car/strats/healerout/platform-west-brambles.png',
           mask: 'radial-gradient(circle at 71% 63.9%, black 10%, rgba(0, 0, 0, 0.4) 0%)'
         },
@@ -758,7 +758,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('Brambles', 'Graines'),
-          description: localizedText('Outside South', 'Extérieur au Sud'),
+          description: localizedText('Outside South', 'Au Sud vers l\'extérieur'),
           imageUrl: 'car/strats/healerout/platform-west-brambles.png',
           mask: 'radial-gradient(circle at 29.8% 63.7%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
         },
@@ -836,7 +836,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('Brambles', 'Graines'),
-          description: localizedText('Outside South', "À l'extérieur au Sud"),
+          description: localizedText('Outside South', "Au Sud vers l'extérieur"),
           imageUrl: 'car/strats/healerout/platform-east-brambles.png',
           mask: 'radial-gradient(circle at 72% 62%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
         },
@@ -1140,7 +1140,7 @@ const healerOutStrat: Strat = {
       swapStrats: [
         {
           mechanic: localizedText('Start', 'Position initiale'),
-          description: localizedText('NW/SW east of corner tile', "NW/SW sur la tuile d'intérieur"),
+          description: localizedText('NW/SW east of corner tile', "NW/SW sur la tuile vers l'intérieur"),
           imageUrl: 'car/strats/healerout/postswap-c-tiles-west.png',
           mask: 'radial-gradient(circle at 73.3% 24.1%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 73.1% 74.9%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
         },
@@ -1228,7 +1228,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Far from boss\nNorth Outside\nw/ Ranged',
-            "Loin du boss\nNord vers l'extérieur\nEn duo avec un DPS à distance"
+            "Loin du boss\nNord vers l'extérieur\nEn duo avec le DPS à distance"
           ),
           imageUrl: 'car/strats/healerout/platform-east-pairs.png',
           mask: 'radial-gradient(circle at 80.1% 27.3%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
@@ -1276,7 +1276,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Far from boss\nNorth Outside\nw/ Ranged',
-            "Loin du boss\nNord vers l'extérieur\nEn duo avec un DPS à distance"
+            "Loin du boss\nNord vers l'extérieur\nEn duo avec le DPS à distance"
           ),
           imageUrl: 'car/strats/healerout/postswap-h-platform-west-pairs.png',
           mask: 'radial-gradient(circle at 26.7% 27.5%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
@@ -1438,7 +1438,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Start', 'Position initiale'),
           description: localizedText(
             "NW/SW North/South cubby\nIf the swap puts you in West cubby, that's fine too.",
-            "Tuile Nord/Sud au NW/SW\nSi le swap vous place sur la tuile Ouest, c'est très bien aussi."
+            "Tuile Nord/Sud au NW/SW\n(Si le swap vous place dans la tuile Ouest, c'est ok)"
           ),
           imageUrl: 'car/strats/healerout/postswap-c-tiles-west.png',
           mask: 'radial-gradient(circle at 49.5% 14%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 49.5% 86.1%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
@@ -1521,7 +1521,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Close to boss\nNorth Outside\nw/ Healer 1',
-            "Près du boss\nNord vers l'extérieur\nEn duo avec le Soigneur 1"
+            "Près du bossAu Nord vers l'extérieur\nEn duo avec le Soigneur 1"
           ),
           imageUrl: 'car/strats/healerout/platform-east-pairs.png',
           mask: 'radial-gradient(circle at 65.5% 38%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
@@ -1540,7 +1540,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('Brambles', 'Graines'),
-          description: localizedText('Inside South', 'Intérieur au Sud'),
+          description: localizedText('Inside South', 'Au Sud vers l'intérieur'),
           imageUrl: 'car/strats/healerout/platform-east-brambles.png',
           mask: 'radial-gradient(circle at 29.5% 61.5%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
         },
@@ -1566,7 +1566,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Start', 'Position initiale'),
           description: localizedText(
             "NW/SW West cubby\nIf the swap puts you in North/South cubby, that's fine too.",
-            "Tuile Ouest au NW/SW\nSi le swap vous place sur la tuile Ouest, c'est très bien aussi."
+            "Tuile Ouest au NW/SW\n(Si le swap vous place dans la tuile Nord/Sud, c'est ok)"
           ),
           imageUrl: 'car/strats/healerout/postswap-c-tiles-west.png',
           mask: 'radial-gradient(circle at 27% 24%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 27% 75.4%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
