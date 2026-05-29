@@ -73,7 +73,7 @@ const healerOutStrat: Strat = {
       party: 1,
       notes: localizedText(
         'Left/West platform, Face boss Inside',
-        "Plateforme gauche/ouest, orientez le boss vers l'intérieur"
+        "Plateforme Ouest, orientez le boss vers l'intérieur"
       ),
       startingArea: 'Platform',
       strats: [
@@ -106,7 +106,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('AoEs', 'AoEs'),
-          description: localizedText('Platform Inside North', "Plateforme à l'intérieur au nord"),
+          description: localizedText('Platform Inside North', "Plateforme à l'intérieur au Nord"),
           imageUrl: 'car/strats/healerout/platform-west-aoe-spread.png',
           mask: 'radial-gradient(circle at 83% 39%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         },
@@ -191,7 +191,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('AoEs', 'AoEs'),
           description: localizedText(
             'Platform Inside North',
-            "Au Nord vers l'intérieur de la plateforme"
+            "Plateforme à l'intérieur au Nord"
           ),
           imageUrl: 'car/strats/healerout/postswap-platform-east-aoe-spread.png',
           mask: 'radial-gradient(circle at 8.5% 35.9%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -204,7 +204,7 @@ const healerOutStrat: Strat = {
       party: 1,
       notes: localizedText(
         'Left/West platform, Boss faces Inside',
-        "Plateforme Ouest (gauche), avec le boss orienté vers l'intérieur"
+        "Plateforme Ouest, avec le boss orienté vers l'intérieur"
       ),
       startingArea: 'Platform',
       strats: [
@@ -288,7 +288,7 @@ const healerOutStrat: Strat = {
       party: 2,
       notes: localizedText(
         'Left/West platform, Boss faces Inside',
-        "Plateforme Ouest (gauche), avec le boss orienté vers l'intérieur"
+        "Plateforme Ouest, avec le boss orienté vers l'intérieur"
       ),
       startingArea: 'Platform',
       strats: [
@@ -366,7 +366,7 @@ const healerOutStrat: Strat = {
       party: 1,
       notes: localizedText(
         'Left/West platform, Boss faces Inside',
-        "Plateforme Ouest (gauche), avec le boss orienté vers l'intérieur"
+        "Plateforme Ouest, avec le boss orienté vers l'intérieur"
       ),
       startingArea: 'Platform',
       strats: [
@@ -395,7 +395,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Brambles', 'Graines'),
           description: localizedText(
             'None, stay on boss',
-            "Vous n'aurez pas de graines, restez sous le boss!"
+            "Aucune, restez sous le boss"
           ),
           imageUrl: 'car/strats/healerout/platform-west-brambles.png',
           mask: 'radial-gradient(circle at 44% 43%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
@@ -500,7 +500,7 @@ const healerOutStrat: Strat = {
       party: 1,
       notes: localizedText(
         'Left/West platform, Boss faces Inside',
-        "Plateforme Ouest (gauche), avec le boss orienté vers l'intérieur"
+        "Plateforme Ouest, avec le boss orienté vers l'intérieur"
       ),
       startingArea: 'Platform',
       strats: [
@@ -652,7 +652,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Close to boss\nInside\nw/ Healer from B',
-            "Près du boss\nÀ l'intérieur de la plateforme\nEn duo avec le Soigneur de l'alliance B"
+            "Près du boss\nVers l'intérieur\nEn duo avec le Soigneur de l'Alliance B"
           ),
           imageUrl: 'car/strats/healerout/postswap-b-platform-east-pairs.png',
           mask: 'radial-gradient(circle at 25% 49.9%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
@@ -667,7 +667,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('AoEs', 'AoEs'),
           description: localizedText(
             'Platform Inside North',
-            "Au Nord vers l'intérieur de la plateforme"
+            "Plateforme à l'intérieur au Nord"
           ),
           imageUrl: 'car/strats/healerout/postswap-platform-east-aoe-spread.png',
           mask: 'radial-gradient(circle at 9% 36%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -704,7 +704,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Close to boss\nInside\nw/ Healer from B',
-            "Près du boss\nÀ l'intérieur de la plateforme\nEn duo avec le Soigneur de l'alliance B"
+            "Près du boss\nVers l'intérieur\nEn duo avec le Soigneur de l'Alliance B"
           ),
           imageUrl: 'car/strats/healerout/postswap-b-platform-west-pairs.png',
           mask: 'radial-gradient(circle at 73.2% 50%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
@@ -719,7 +719,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('AoEs', 'AoEs'),
           description: localizedText(
             'Platform Inside North',
-            "Au Nord vers l'intérieur de la plateforme"
+            "Plateforme à l'intérieur au Nord"
           ),
           imageUrl: 'car/strats/healerout/postswap-platform-west-aoe-spread.png',
           mask: 'radial-gradient(circle at 88.5% 39%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -732,7 +732,7 @@ const healerOutStrat: Strat = {
       party: 1,
       notes: localizedText(
         'Left/West platform, Boss faces Inside',
-        "Plateforme Ouest (gauche), avec le boss orienté vers l'intérieur"
+        "Plateforme Ouest, avec le boss orienté vers l'intérieur"
       ),
       startingArea: 'Platform',
       strats: [
@@ -740,7 +740,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Far from boss\nInside\nw/ Tank',
-            "Loin du boss\nÀ l'intérieur de la plateforme\nEn duo avec le Tank"
+            "Loin du boss\nVers l'intérieur\nEn duo avec le Tank"
           ),
           imageUrl: 'car/strats/healerout/platform-west-pairs.png',
           mask: 'radial-gradient(circle at 93% 50.5%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
@@ -785,7 +785,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Far from boss\nInside\nw/ Tank',
-            "Loin du boss\nÀ l'intérieur de la plateforme\nEn duo avec le Tank"
+            "Loin du boss\nVers l'intérieur\nEn duo avec le Tank"
           ),
           imageUrl: 'car/strats/healerout/postswap-h-platform-east-pairs.png',
           mask: 'radial-gradient(circle at 9% 50%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
@@ -810,7 +810,7 @@ const healerOutStrat: Strat = {
       party: 2,
       notes: localizedText(
         'Right/East platform, Boss faces Inside',
-        "Plateforme Est (gauche), Boss tourné vers l'intérieur"
+        "Plateforme Est, Boss tourné vers l'intérieur"
       ),
       startingArea: 'Platform',
       strats: [
@@ -818,7 +818,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Far from boss\nInside\nw/ Tank',
-            "Loin du boss\nÀ l'intérieur de la plateforme\nEn duo avec le Tank"
+            "Loin du boss\nVers l'intérieur\nEn duo avec le Tank"
           ),
           imageUrl: 'car/strats/healerout/platform-east-pairs.png',
           mask: 'radial-gradient(circle at 9.8% 50%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
@@ -863,7 +863,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Far from boss\nInside\nw/ Tank',
-            "Loin du boss\nÀ l'intérieur de la plateforme\nEn duo avec le Tank"
+            "Loin du boss\nVers l'intérieur\nEn duo avec le Tank"
           ),
           imageUrl: 'car/strats/healerout/postswap-h-platform-west-pairs.png',
           mask: 'radial-gradient(circle at 87.5% 50.2%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
@@ -1092,7 +1092,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Close to boss\nInside\nw/ Healer from B',
-            "Près du boss\nÀ l'intérieur de la plateforme\nEn duo avec le Soigneur de l'alliance B"
+            "Près du boss\nVers l'intérieur\nEn duo avec le Soigneur de l'Alliance B"
           ),
           imageUrl: 'car/strats/healerout/platform-east-pairs.png',
           mask: 'radial-gradient(circle at 27% 50%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
@@ -1113,7 +1113,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Brambles', 'Graines'),
           description: localizedText(
             'None, stay on boss',
-            "Vous n'aurez pas de graines, restez sous le boss!"
+            "Aucune, restez sous le boss"
           ),
           imageUrl: 'car/strats/healerout/platform-east-brambles.png',
           mask: 'radial-gradient(circle at 46% 50%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
@@ -1122,7 +1122,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('AoEs', 'AoEs'),
           description: localizedText(
             'Platform Inside North',
-            "Au Nord vers l'intérieur de la plateforme"
+            "Plateforme à l'intérieur au Nord"
           ),
           imageUrl: 'car/strats/healerout/platform-east-aoe-spread.png',
           mask: 'radial-gradient(circle at 9% 35.5%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -1193,7 +1193,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Close to boss\nInside\nw/ Healer from B',
-            "Près du boss\nÀ l'intérieur de la plateforme\nAvec le soigneur 1 du groupe B"
+            "Près du boss\nVers l'intérieur\nAvec le soigneur 1 du groupe B"
           ),
           imageUrl: 'car/strats/healerout/postswap-c-platform-west-pairs.png',
           mask: 'radial-gradient(circle at 73% 50.5%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
@@ -1208,7 +1208,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('AoEs', 'AoEs'),
           description: localizedText(
             'Platform Inside North',
-            "Au Nord vers l'intérieur de la plateforme"
+            "Plateforme à l'intérieur au Nord"
           ),
           imageUrl: 'car/strats/healerout/postswap-platform-west-aoe-spread.png',
           mask: 'radial-gradient(circle at 88% 39%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -1221,7 +1221,7 @@ const healerOutStrat: Strat = {
       party: 1,
       notes: localizedText(
         'Right/East platform, Boss faces Inside',
-        "Plateforme Est (gauche), Boss tourné vers l'intérieur"
+        "Plateforme Est, Boss tourné vers l'intérieur"
       ),
       startingArea: 'Platform',
       strats: [
@@ -1305,7 +1305,7 @@ const healerOutStrat: Strat = {
       party: 2,
       notes: localizedText(
         'Right/East platform, Boss faces Inside',
-        "Plateforme Est (gauche), Boss tourné vers l'intérieur"
+        "Plateforme Est, Boss tourné vers l'intérieur"
       ),
       startingArea: 'Platform',
       strats: [
@@ -1383,7 +1383,7 @@ const healerOutStrat: Strat = {
       party: 1,
       notes: localizedText(
         'Right/East platform, Boss faces Inside',
-        "Plateforme Est (gauche), Boss tourné vers l'intérieur"
+        "Plateforme Est, Boss tourné vers l'intérieur"
       ),
       startingArea: 'Platform',
       strats: [
@@ -1412,7 +1412,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Brambles', 'Graines'),
           description: localizedText(
             'None, stay on boss',
-            "Vous n'aurez pas de graines, restez sous le boss!"
+            "Aucune, restez sous le boss"
           ),
           imageUrl: 'car/strats/healerout/platform-east-brambles.png',
           mask: 'radial-gradient(circle at 60.2% 55%, black 16%, rgba(0, 0, 0, 0.4) 11%)'
@@ -1514,7 +1514,7 @@ const healerOutStrat: Strat = {
       party: 1,
       notes: localizedText(
         'Right/East platform, Boss faces Inside',
-        "Plateforme Est (gauche), Boss tourné vers l'intérieur"
+        "Plateforme Est, Boss tourné vers l'intérieur"
       ),
       startingArea: 'Platform',
       strats: [
