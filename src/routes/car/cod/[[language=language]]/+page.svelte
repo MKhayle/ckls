@@ -2,6 +2,7 @@
 <script lang="ts">
   // @ts-nocheck
   import { browser } from '$app/environment';
+  import { base } from '$app/paths';
   import type {
     Alliance,
     Role,
@@ -33,10 +34,11 @@
   let optionsString = $derived(getOptionsString(stratName, alliance, role, party));
   let languageUpdateId = 0;
   const preloadedImageSrcs = new Set<string>();
+  const overviewImageSrc = 'car/strats/healerout/overall.png';
   const roleIcons = {
-    t: { src: '/icons/tank.png', alt: 'Tank' },
-    m: { src: '/icons/melee.png', alt: 'Melee' },
-    r: { src: '/icons/ranged.png', alt: 'Ranged' }
+    t: { src: getAssetSrc('icons/tank.png'), alt: 'Tank' },
+    m: { src: getAssetSrc('icons/melee.png'), alt: 'Melee' },
+    r: { src: getAssetSrc('icons/ranged.png'), alt: 'Ranged' }
   };
   const localizedText = (english: string, french: string): LocalizedText => ({ english, french });
   const uiText = {
@@ -180,7 +182,14 @@
 
   function getLocalizedImageSrc(src?: string, targetLanguage = language): string | undefined {
     const languageFolder = targetLanguage === 'english' ? 'EN' : 'FR';
-    return src?.replace('healerout', languageFolder);
+    return getAssetSrc(src?.replace('healerout', languageFolder));
+  }
+
+  function getAssetSrc(src?: string): string {
+    if (!src) return '';
+    if (!base || src.startsWith(base)) return src;
+
+    return `${base}${src.startsWith('/') ? src : `/${src}`}`;
   }
 
   async function preloadLanguageImages(targetLanguage: Language) {
@@ -191,7 +200,7 @@
 
   function getVisibleImageSrcs(targetLanguage: Language): string[] {
     const imageSrcs = new Set<string>();
-    const overviewSrc = getLocalizedImageSrc('/car/strats/healerout/overall.png', targetLanguage);
+    const overviewSrc = getLocalizedImageSrc(overviewImageSrc, targetLanguage);
     if (overviewSrc) imageSrcs.add(overviewSrc);
 
     if (typeof strat !== 'string' && strat) {
@@ -351,7 +360,7 @@
       <div class="my-4 xl:my-0">
         <img
           style:max-height={'400px'}
-          src={getLocalizedImageSrc('/car/strats/healerout/overall.png')}
+          src={getLocalizedImageSrc(overviewImageSrc)}
           alt={getText(uiText.overviewAlt)}
         />
       </div>
