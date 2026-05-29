@@ -603,7 +603,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Close to boss\nNorth Outside\nw/ Healer 1',
-            "Près du boss\nNord vers l'extérieur\nAvec le Soigneur 1"
+            "Près du boss\nNord vers l'extérieur\nEn duo avec le Soigneur 1"
           ),
           imageUrl: 'car/strats/healerout/postswap-a-platform-east-pairs.png',
           mask: 'radial-gradient(circle at 60% 38%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
@@ -912,7 +912,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Close to boss\nSouth Outside\nw/ Healer 2 from A',
-            "Près du boss\nÀ l'extérieur au Sud\nAvec le soigneur 2 du groupe A"
+            "Près du boss\nÀ l'extérieur au Sud\nEn duo avec le soigneur 2 de l'Alliance A"
           ),
           imageUrl: 'car/strats/healerout/postswap-b-platform-east-pairs.png',
           mask: 'radial-gradient(circle at 61% 62%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
@@ -961,7 +961,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Close to boss\nSouth Outside\nw/ Healer 2 from C',
-            "Près du boss\nÀ l'extérieur au Sud\nAvec le soigneur 2 du groupe C"
+            "Près du boss\nÀ l'extérieur au Sud\nEn duo avec le soigneur 2 de l'Alliance C"
           ),
           imageUrl: 'car/strats/healerout/postswap-b-platform-west-pairs.png',
           mask: 'radial-gradient(circle at 40% 62.5%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
@@ -1010,7 +1010,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Close to boss\nNorth Outside\nw/ Healer 1 from A',
-            "Près du boss\nNord vers l'extérieur\nAvec le soigneur 1 du groupe A"
+            "Près du boss\nNord vers l'extérieur\nEn duo avec le soigneur 1 de l'Alliance A"
           ),
           imageUrl: 'car/strats/healerout/postswap-b-platform-east-pairs.png',
           mask: 'radial-gradient(circle at 61% 38%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
@@ -1059,7 +1059,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Close to boss\nNorth Outside\nw/ Healer 1 from C',
-            "Près du boss\nNord vers l'extérieur\nAvec le soigneur 1 du groupe C"
+            "Près du boss\nNord vers l'extérieur\nEn duo avec le soigneur 1 de l'Alliance C"
           ),
           imageUrl: 'car/strats/healerout/postswap-b-platform-west-pairs.png',
           mask: 'radial-gradient(circle at 40% 38%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
@@ -1193,7 +1193,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Close to boss\nInside\nw/ Healer from B',
-            "Près du boss\nVers l'intérieur\nAvec le soigneur 1 du groupe B"
+            "Près du boss\nVers l'intérieur\nEn duo avec le soigneur 1 de l'Alliance B"
           ),
           imageUrl: 'car/strats/healerout/postswap-c-platform-west-pairs.png',
           mask: 'radial-gradient(circle at 73% 50.5%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
