@@ -154,7 +154,7 @@ const healerOutStrat: Strat = {
       strats: [
         {
           mechanic: localizedText('Start', 'Position initiale'),
-          description: localizedText('SW inner tile', 'Tuile intérieure au Sud-Ouest'),
+          description: localizedText('SW inner tile', 'Tuile Intérieure'),
           imageUrl: 'car/strats/healerout/tiles-southwest.png',
           mask: 'radial-gradient(circle at 69% 50%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
         },
@@ -320,7 +320,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('AoEs', 'AoEs'),
-          description: localizedText('Ring Outside South', "Sur l'anneau extérieur, au Sud"),
+          description: localizedText('Ring Outside South', "Sur l'anneau extérieur au Sud"),
           imageUrl: 'car/strats/healerout/platform-west-aoe-spread.png',
           mask: 'radial-gradient(circle at 23% 91.0%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         },
@@ -353,7 +353,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('AoEs', 'AoEs'),
-          description: localizedText('Ring Outside South', "Sur l'anneau extérieur, au Sud"),
+          description: localizedText('Ring Outside South', "Sur l'anneau extérieur au Sud"),
           imageUrl: 'car/strats/healerout/postswap-platform-east-aoe-spread.png',
           mask: 'radial-gradient(circle at 77.9% 88%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         }
@@ -453,7 +453,7 @@ const healerOutStrat: Strat = {
       strats: [
         {
           mechanic: localizedText('Start', 'Position initiale'),
-          description: localizedText('SW South cubby', 'Tuile Ouest au Sud-Ouest'),
+          description: localizedText('SW South cubby', 'Tuile Sud'),
           imageUrl: 'car/strats/healerout/tiles-southwest.png',
           mask: 'radial-gradient(circle at 49.7% 74.9%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
         },
@@ -581,7 +581,7 @@ const healerOutStrat: Strat = {
       strats: [
         {
           mechanic: localizedText('Start', 'Position initiale'),
-          description: localizedText('SW West cubby', 'Tuile Sud-Ouest'),
+          description: localizedText('SW West cubby', 'Tuile Ouest'),
           imageUrl: 'car/strats/healerout/tiles-southwest.png',
           mask: 'radial-gradient(circle at 26.7% 50.9%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
         },
@@ -625,12 +625,12 @@ const healerOutStrat: Strat = {
       alliance: 'B',
       role: 'Tank',
       party: 1,
-      notes: localizedText('NW/Front Left tiles', 'Tuile intérieure au Nord-Ouest'),
+      notes: localizedText('NW/Front Left tiles', 'Tuiles au Nord-Ouest'),
       startingArea: 'Tiles',
       strats: [
         {
           mechanic: localizedText('Start', 'Position initiale'),
-          description: localizedText('NW inner tile', 'Tuile intérieure au Nord-Ouest'),
+          description: localizedText('NW inner tile', 'Tuile Intérieure'),
           imageUrl: 'car/strats/healerout/tiles-northwest.png',
           mask: 'radial-gradient(circle at 70% 50%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
         },
@@ -677,12 +677,12 @@ const healerOutStrat: Strat = {
       alliance: 'B',
       role: 'Tank',
       party: 2,
-      notes: localizedText('NE/Front Right tiles', 'Tuile intérieure au Nord-Est'),
+      notes: localizedText('NE/Front Right tiles', 'Tuiles au Nord-Est'),
       startingArea: 'Tiles',
       strats: [
         {
           mechanic: localizedText('Start', 'Position initiale'),
-          description: localizedText('NE inner tile', 'Tuile intérieure au Nord-Est'),
+          description: localizedText('NE inner tile', 'Tuile Intérieure'),
           imageUrl: 'car/strats/healerout/tiles-northeast.png',
           mask: 'radial-gradient(circle at 29% 51.4%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
         },
@@ -885,12 +885,12 @@ const healerOutStrat: Strat = {
       alliance: 'B',
       role: 'Melee',
       party: 1,
-      notes: localizedText('NW/Front Left tiles', 'Tuile Nord au Nord-Ouest'),
+      notes: localizedText('NW/Front Left tiles', 'Tuiles au Nord-Ouest'),
       startingArea: 'Tiles',
       strats: [
         {
           mechanic: localizedText('Start', 'Position initiale'),
-          description: localizedText('NW North cubby', 'Tuile Nord au Nord-Ouest'),
+          description: localizedText('NW North cubby', 'Tuile Nord'),
           imageUrl: 'car/strats/healerout/tiles-northwest.png',
           mask: 'radial-gradient(circle at 49.1% 29.3%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
         },
@@ -911,7 +911,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Close to boss\nSouth Outside\nw/ Healer 2 from A',
-            "Près du boss\nÀ l'extérieur au Sud\nEn duo avec le soigneur 2 de l'Alliance A"
+            "Près du boss\nÀ l'extérieur au Sud\nEn duo avec le Soigneur 2 de l'Alliance A"
           ),
           imageUrl: 'car/strats/healerout/postswap-b-platform-east-pairs.png',
           mask: 'radial-gradient(circle at 61% 62%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
@@ -934,12 +934,12 @@ const healerOutStrat: Strat = {
       alliance: 'B',
       role: 'Melee',
       party: 2,
-      notes: localizedText('NE/Front Right tiles', 'Sur les tuiles au Nord-Est'),
+      notes: localizedText('NE/Front Right tiles', 'Tuiles au Nord-Est'),
       startingArea: 'Tiles',
       strats: [
         {
           mechanic: localizedText('Start', 'Position initiale'),
-          description: localizedText('NE North cubby', 'Tuile Nord au Nord-Est'),
+          description: localizedText('NE North cubby', 'Tuile Nord'),
           imageUrl: 'car/strats/healerout/tiles-northeast.png',
           mask: 'radial-gradient(circle at 50% 30%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
         },
@@ -960,7 +960,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Close to boss\nSouth Outside\nw/ Healer 2 from C',
-            "Près du boss\nÀ l'extérieur au Sud\nEn duo avec le soigneur 2 de l'Alliance C"
+            "Près du boss\nÀ l'extérieur au Sud\nEn duo avec le Soigneur 2 de l'Alliance C"
           ),
           imageUrl: 'car/strats/healerout/postswap-b-platform-west-pairs.png',
           mask: 'radial-gradient(circle at 40% 62.5%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
@@ -983,12 +983,12 @@ const healerOutStrat: Strat = {
       alliance: 'B',
       role: 'Ranged',
       party: 1,
-      notes: localizedText('NW/Front Left tiles', 'Tuile Nord au Nord-Ouest'),
+      notes: localizedText('NW/Front Left tiles', 'Tuiles au Nord-Ouest'),
       startingArea: 'Tiles',
       strats: [
         {
           mechanic: localizedText('Start', 'Position initiale'),
-          description: localizedText('NW West cubby', 'Tuile Ouest au Nord-Ouest'),
+          description: localizedText('NW West cubby', 'Tuile Ouest'),
           imageUrl: 'car/strats/healerout/tiles-northwest.png',
           mask: 'radial-gradient(circle at 27% 48.3%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
         },
@@ -1009,7 +1009,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Close to boss\nNorth Outside\nw/ Healer 1 from A',
-            "Près du boss\nAu Nord vers l'extérieur\nEn duo avec le soigneur 1 de l'Alliance A"
+            "Près du boss\nAu Nord vers l'extérieur\nEn duo avec le Soigneur 1 de l'Alliance A"
           ),
           imageUrl: 'car/strats/healerout/postswap-b-platform-east-pairs.png',
           mask: 'radial-gradient(circle at 61% 38%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
@@ -1032,12 +1032,12 @@ const healerOutStrat: Strat = {
       alliance: 'B',
       role: 'Ranged',
       party: 2,
-      notes: localizedText('NE/Front Right tiles', 'Sur les tuiles au Nord-Est'),
+      notes: localizedText('NE/Front Right tiles', 'Tuiles au Nord-Est'),
       startingArea: 'Tiles',
       strats: [
         {
           mechanic: localizedText('Start', 'Position initiale'),
-          description: localizedText('NE East cubby', 'Tuile Est au Nord-Est'),
+          description: localizedText('NE East cubby', 'Tuile Est'),
           imageUrl: 'car/strats/healerout/tiles-northeast.png',
           mask: 'radial-gradient(circle at 71.5% 49.4%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
         },
@@ -1058,7 +1058,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Close to boss\nNorth Outside\nw/ Healer 1 from C',
-            "Près du boss\nAu Nord vers l'extérieur\nEn duo avec le soigneur 1 de l'Alliance C"
+            "Près du boss\nAu Nord vers l'extérieur\nEn duo avec le Soigneur 1 de l'Alliance C"
           ),
           imageUrl: 'car/strats/healerout/postswap-b-platform-west-pairs.png',
           mask: 'radial-gradient(circle at 40% 38%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
@@ -1166,12 +1166,12 @@ const healerOutStrat: Strat = {
       alliance: 'C',
       role: 'Tank',
       party: 2,
-      notes: localizedText('SE/Back Right tiles', 'Tuile intérieure au Sud-Est'),
+      notes: localizedText('SE/Back Right tiles', 'Tuiles au Sud-Est'),
       startingArea: 'Tiles',
       strats: [
         {
           mechanic: localizedText('Start', 'Position initiale'),
-          description: localizedText('SE inner tile', 'Tuile intérieure au Sud-Est'),
+          description: localizedText('SE inner tile', 'Tuile Intérieure'),
           imageUrl: 'car/strats/healerout/tiles-southeast.png',
           mask: 'radial-gradient(circle at 29% 51%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
         },
@@ -1192,7 +1192,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Close to boss\nInside\nw/ Healer from B',
-            "Près du boss\nVers l'intérieur\nEn duo avec le soigneur 1 de l'Alliance B"
+            "Près du boss\nVers l'intérieur\nEn duo avec le Soigneur 1 de l'Alliance B"
           ),
           imageUrl: 'car/strats/healerout/postswap-c-platform-west-pairs.png',
           mask: 'radial-gradient(circle at 73% 50.5%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
@@ -1337,7 +1337,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('AoEs', 'AoEs'),
-          description: localizedText('Ring Outside South', "Sur l'anneau extérieur, au Sud"),
+          description: localizedText('Ring Outside South', "Sur l'anneau extérieur au Sud"),
           imageUrl: 'car/strats/healerout/platform-east-aoe-spread.png',
           mask: 'radial-gradient(circle at 77% 87.6%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         },
@@ -1370,7 +1370,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('AoEs', 'AoEs'),
-          description: localizedText('Ring Outside South', "Sur l'anneau extérieur, au Sud"),
+          description: localizedText('Ring Outside South', "Sur l'anneau extérieur au Sud"),
           imageUrl: 'car/strats/healerout/postswap-platform-west-aoe-spread.png',
           mask: 'radial-gradient(circle at 23% 94%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         }
@@ -1447,7 +1447,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Priority: t > m > r', 'Priorité : t > m > r'),
           description: localizedText(
             "You're priority 2!\nMove second on mechanics!\nLet the Tank move first.",
-            'Vous êtes la priorité 2!\nDéplacez-vous en second sur les mécaniques!\nLaissez le Tank se déplacer en premier.'
+            'Vous êtes la priorité 2 !\nDéplacez-vous en second sur les mécaniques !\nLaissez le Tank se déplacer en premier.'
           )
         },
         {
@@ -1462,12 +1462,12 @@ const healerOutStrat: Strat = {
       alliance: 'C',
       role: 'Melee',
       party: 2,
-      notes: localizedText('SE/Back Right tiles', 'Tuile Sud au Sud-Est'),
+      notes: localizedText('SE/Back Right tiles', 'Tuiles au Sud-Est'),
       startingArea: 'Tiles',
       strats: [
         {
           mechanic: localizedText('Start', 'Position initiale'),
-          description: localizedText('SE South cubby', 'Tuile Sud au Sud-Est'),
+          description: localizedText('SE South cubby', 'Tuile Sud'),
           imageUrl: 'car/strats/healerout/tiles-southeast.png',
           mask: 'radial-gradient(circle at 49.6% 75.4%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
         },
@@ -1475,7 +1475,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Priority: t > m > r', 'Priorité : t > m > r'),
           description: localizedText(
             "You're priority 2!\nMove second on mechanics!\nLet the Tank move first.",
-            'Vous êtes la priorité 2!\nDéplacez-vous en second sur les mécaniques!\nLaissez le Tank se déplacer en premier.'
+            'Vous êtes la priorité 2 !\nDéplacez-vous en second sur les mécaniques !\nLaissez le Tank se déplacer en premier.'
           )
         }
       ],
@@ -1521,7 +1521,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Close to boss\nNorth Outside\nw/ Healer 1',
-            "Près du bossAu Nord vers l'extérieur\nEn duo avec le Soigneur 1"
+            "Près du boss\nAu Nord vers l'extérieur\nEn duo avec le Soigneur 1"
           ),
           imageUrl: 'car/strats/healerout/platform-east-pairs.png',
           mask: 'radial-gradient(circle at 65.5% 38%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
@@ -1575,7 +1575,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Priority: t > m > r', 'Priorité : t > m > r'),
           description: localizedText(
             "You're priority 3!\nMove last on mechanics!\nLet the Tank and Melee\nmove first.",
-            'Vous êtes la priorité 3!\nDéplacez-vous en troisième sur les mécaniques!\nLaissez le Tank se déplacer en premier.'
+            'Vous êtes la priorité 3 !\nDéplacez-vous en dernier sur les mécaniques !\nLaissez le Tank se déplacer en premier.'
           )
         },
         {
@@ -1590,12 +1590,12 @@ const healerOutStrat: Strat = {
       alliance: 'C',
       role: 'Ranged',
       party: 2,
-      notes: localizedText('SE/Back Right tiles', 'Tuile Est au Sud-Est'),
+      notes: localizedText('SE/Back Right tiles', 'Tuiles au Sud-Est'),
       startingArea: 'Tiles',
       strats: [
         {
           mechanic: localizedText('Start', 'Position initiale'),
-          description: localizedText('SE East cubby', 'Tuile Est au Sud-Est'),
+          description: localizedText('SE East cubby', 'Tuile Est'),
           imageUrl: 'car/strats/healerout/tiles-southeast.png',
           mask: 'radial-gradient(circle at 69.2% 50%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
         },
@@ -1603,7 +1603,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Priority: t > m > r', 'Priorité : t > m > r'),
           description: localizedText(
             "You're priority 3!\nMove last on mechanics!\nLet the Tank and Melee\nmove first.",
-            'Vous êtes la priorité 3!\nDéplacez-vous en troisième sur les mécaniques!\nLaissez le Tank et le Mêlée se déplacer en premier.'
+            'Vous êtes la priorité 3 !\nDéplacez-vous en dernier sur les mécaniques !\nLaissez le Tank et le Mêlée se déplacer en premier.'
           )
         }
       ],
