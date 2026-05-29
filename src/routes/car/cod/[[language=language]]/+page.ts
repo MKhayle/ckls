@@ -430,7 +430,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Priority: t > m > r', 'Priorité : t > m > r'),
           description: localizedText(
             "You're priority 2!\nMove second on mechanics!\nLet the Tank move first.",
-            'Vous êtes la priorité 2 !\nBougez en second sur les mécaniques !\nLaissez le Tank bouger en premier.'
+            'Vous êtes la priorité 2 !\nDéplacez-vous en second sur les mécaniques !\nLaissez le Tank bouger en premier.'
           )
         },
         {
@@ -461,7 +461,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Priority: t > m > r', 'Priorité : t > m > r'),
           description: localizedText(
             "You're priority 2!\nMove second on mechanics!\nLet the Tank move first.",
-            'Vous êtes la priorité 2 !\nBougez en second sur les mécaniques !\nLaissez le Tank bouger en premier.'
+            'Vous êtes la priorité 2 !\nDéplacez-vous en second sur les mécaniques !\nLaissez le Tank bouger en premier.'
           )
         }
       ],
@@ -561,7 +561,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Priority: t > m > r', 'Priorité : t > m > r'),
           description: localizedText(
             "You're priority 3!\nMove last on mechanics!\nLet the Tank and Melee\nmove first.",
-            'Vous êtes la priorité 3 !\nBougez en dernier sur les mécaniques !\nLaissez le Tank et le Mêlée se déplacer en premier.'
+            'Vous êtes la priorité 3 !\nDéplacez-vous en dernier sur les mécaniques !\nLaissez le Tank et le Mêlée se déplacer en premier.'
           )
         },
         {
@@ -589,7 +589,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Priority: t > m > r', 'Priorité : t > m > r'),
           description: localizedText(
             "You're priority 3!\nMove last on mechanics!\nLet the Tank and Melee\nmove first.",
-            'Vous êtes la priorité 3 !\nBougez en dernier sur les mécaniques !\nLaissez le Tank et le Mêlée se déplacer en premier.'
+            'Vous êtes la priorité 3 !\nDéplacez-vous en dernier sur les mécaniques !\nLaissez le Tank et le Mêlée se déplacer en premier.'
           )
         }
       ],
@@ -898,7 +898,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Priority: t > m > r', 'Priorité : t > m > r'),
           description: localizedText(
             "You're priority 2!\nMove second on mechanics!\nLet the Tank move first.",
-            'Vous êtes la priorité 2 !\nBougez en second sur les mécaniques !\nLaissez le Tank bouger en premier.'
+            'Vous êtes la priorité 2 !\nDéplacez-vous en second sur les mécaniques !\nLaissez le Tank bouger en premier.'
           )
         }
       ],
@@ -947,7 +947,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Priority: t > m > r', 'Priorité : t > m > r'),
           description: localizedText(
             "You're priority 2!\nMove second on mechanics!\nLet the Tank move first.",
-            'Vous êtes la priorité 2 !\nBougez en second sur les mécaniques !\nLaissez le Tank bouger en premier.'
+            'Vous êtes la priorité 2 !\nDéplacez-vous en second sur les mécaniques !\nLaissez le Tank bouger en premier.'
           )
         }
       ],
@@ -996,7 +996,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Priority: t > m > r', 'Priorité : t > m > r'),
           description: localizedText(
             "You're priority 3!\nMove last on mechanics!\nLet the Tank and Melee\nmove first.",
-            'Vous êtes la priorité 3 !\nBougez en dernier sur les mécaniques !\nLaissez le Tank et le Mêlee bouger en premier.'
+            'Vous êtes la priorité 3 !\nDéplacez-vous en dernier sur les mécaniques !\nLaissez le Tank et le Mêlee bouger en premier.'
           )
         }
       ],
@@ -1045,7 +1045,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Priority: t > m > r', 'Priorité : t > m > r'),
           description: localizedText(
             "You're priority 3!\nMove last on mechanics!\nLet the Tank and Melee\nmove first.",
-            'Vous êtes la priorité 3 !\nBougez en dernier sur les mécaniques !\nLaissez le Tank et le Mêlée bouger en premier.'
+            'Vous êtes la priorité 3 !\nDéplacez-vous en dernier sur les mécaniques !\nLaissez le Tank et le Mêlée bouger en premier.'
           )
         }
       ],
