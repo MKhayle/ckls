@@ -106,7 +106,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('AoEs', 'AoEs'),
-          description: localizedText('Platform Inside North', "Plateforme Vers l'intérieur au Nord"),
+          description: localizedText('Platform Inside North', "Vers l'intérieur, au Nord de la plateforme"),
           imageUrl: 'car/strats/healerout/platform-west-aoe-spread.png',
           mask: 'radial-gradient(circle at 83% 39%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         },
@@ -191,7 +191,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('AoEs', 'AoEs'),
           description: localizedText(
             'Platform Inside North',
-            "Plateforme Vers l'intérieur au Nord"
+            "Vers l'intérieur, au Nord de la plateforme"
           ),
           imageUrl: 'car/strats/healerout/postswap-platform-east-aoe-spread.png',
           mask: 'radial-gradient(circle at 8.5% 35.9%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -239,7 +239,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('AoEs', 'AoEs'),
           description: localizedText(
             'Platform Outside South',
-            "Plateforme au Sud vers l'extérieur"
+            "Vers l'extérieur, au Sud de la plateforme"
           ),
           imageUrl: 'car/strats/healerout/platform-west-aoe-spread.png',
           mask: 'radial-gradient(circle at 33.5% 67%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -275,7 +275,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('AoEs', 'AoEs'),
           description: localizedText(
             'Platform Outside South',
-            "Plateforme au Sud vers l'extérieur"
+            "Vers l'extérieur, au Sud de la plateforme"
           ),
           imageUrl: 'car/strats/healerout/postswap-platform-east-aoe-spread.png',
           mask: 'radial-gradient(circle at 62.5% 64%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -402,7 +402,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('AoEs', 'AoEs'),
-          description: localizedText('Platform Inside South', "Plateforme Sud vers l'intérieur"),
+          description: localizedText('Platform Inside South', "Vers l'intérieur, au Sud de la plateforme"),
           imageUrl: 'car/strats/healerout/platform-west-aoe-spread.png',
           mask: 'radial-gradient(circle at 84.3% 66.9%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         },
@@ -488,7 +488,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('AoEs', 'AoEs'),
-          description: localizedText('Platform Inside South', "Plateforme Sud vers l'intérieur"),
+          description: localizedText('Platform Inside South', "Vers l'intérieur, au Sud de la plateforme"),
           imageUrl: 'car/strats/healerout/postswap-platform-east-aoe-spread.png',
           mask: 'radial-gradient(circle at 8% 63.8%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         }
@@ -533,7 +533,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('AoEs', 'AoEs'),
-          description: localizedText('Platform Outside North', "Plateforme Nord vers l'extérieur"),
+          description: localizedText('Platform Outside North', "Vers l'extérieur, au Nord de la plateforme"),
           imageUrl: 'car/strats/healerout/platform-west-aoe-spread.png',
           mask: 'radial-gradient(circle at 33.8% 37.8%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         },
@@ -616,7 +616,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('AoEs', 'AoEs'),
-          description: localizedText('Platform Outside North', "Plateforme Nord vers l'extérieur"),
+          description: localizedText('Platform Outside North', "Vers l'extérieur, au Nord de la plateforme"),
           imageUrl: 'car/strats/healerout/postswap-platform-east-aoe-spread.png',
           mask: 'radial-gradient(circle at 63.5% 36%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         }
@@ -667,7 +667,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('AoEs', 'AoEs'),
           description: localizedText(
             'Platform Inside North',
-            "Plateforme Vers l'intérieur au Nord"
+            "Vers l'intérieur, au Nord de la plateforme"
           ),
           imageUrl: 'car/strats/healerout/postswap-platform-east-aoe-spread.png',
           mask: 'radial-gradient(circle at 9% 36%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -719,7 +719,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('AoEs', 'AoEs'),
           description: localizedText(
             'Platform Inside North',
-            "Plateforme Vers l'intérieur au Nord"
+            "Vers l'intérieur, au Nord de la plateforme"
           ),
           imageUrl: 'car/strats/healerout/postswap-platform-west-aoe-spread.png',
           mask: 'radial-gradient(circle at 88.5% 39%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -925,7 +925,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('AoEs', 'AoEs'),
-          description: localizedText('Platform Inside South', "Plateforme Sud vers l'intérieur"),
+          description: localizedText('Platform Inside South', "Vers l'intérieur, au Sud de la plateforme"),
           imageUrl: 'car/strats/healerout/postswap-platform-east-aoe-spread.png',
           mask: 'radial-gradient(circle at 8% 63.8%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         }
@@ -974,7 +974,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('AoEs', 'AoEs'),
-          description: localizedText('Platform Inside South', "Plateforme Sud vers l'intérieur"),
+          description: localizedText('Platform Inside South', "Vers l'intérieur, au Sud de la plateforme"),
           imageUrl: 'car/strats/healerout/postswap-platform-west-aoe-spread.png',
           mask: 'radial-gradient(circle at 90% 69%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         }
@@ -1023,7 +1023,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('AoEs', 'AoEs'),
-          description: localizedText('Platform Outside North', "Plateforme Nord vers l'extérieur"),
+          description: localizedText('Platform Outside North', "Vers l'extérieur, au Nord de la plateforme"),
           imageUrl: 'car/strats/healerout/postswap-platform-east-aoe-spread.png',
           mask: 'radial-gradient(circle at 63.5% 36%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         }
@@ -1072,7 +1072,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('AoEs', 'AoEs'),
-          description: localizedText('Platform Outside North', "Plateforme Nord vers l'extérieur"),
+          description: localizedText('Platform Outside North', "Vers l'extérieur, au Nord de la plateforme"),
           imageUrl: 'car/strats/healerout/postswap-platform-west-aoe-spread.png',
           mask: 'radial-gradient(circle at 36% 38%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         }
@@ -1122,7 +1122,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('AoEs', 'AoEs'),
           description: localizedText(
             'Platform Inside North',
-            "Plateforme Vers l'intérieur au Nord"
+            "Vers l'intérieur, au Nord de la plateforme"
           ),
           imageUrl: 'car/strats/healerout/platform-east-aoe-spread.png',
           mask: 'radial-gradient(circle at 9% 35.5%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -1208,7 +1208,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('AoEs', 'AoEs'),
           description: localizedText(
             'Platform Inside North',
-            "Plateforme Vers l'intérieur au Nord"
+            "Vers l'intérieur, au Nord de la plateforme"
           ),
           imageUrl: 'car/strats/healerout/postswap-platform-west-aoe-spread.png',
           mask: 'radial-gradient(circle at 88% 39%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -1256,7 +1256,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('AoEs', 'AoEs'),
           description: localizedText(
             'Platform Outside South',
-            "Plateforme au Sud vers l'extérieur"
+            "Vers l'extérieur, au Sud de la plateforme"
           ),
           imageUrl: 'car/strats/healerout/platform-east-aoe-spread.png',
           mask: 'radial-gradient(circle at 63.9% 64%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -1292,7 +1292,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('AoEs', 'AoEs'),
           description: localizedText(
             'Platform Outside South',
-            "Plateforme au Sud vers l'extérieur"
+            "Vers l'extérieur, au Sud de la plateforme"
           ),
           imageUrl: 'car/strats/healerout/postswap-platform-west-aoe-spread.png',
           mask: 'radial-gradient(circle at 37% 69.5%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -1419,7 +1419,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('AoEs', 'AoEs'),
-          description: localizedText('Platform Inside South', "Plateforme Sud vers l'intérieur"),
+          description: localizedText('Platform Inside South', "Vers l'intérieur, au Sud de la plateforme"),
           imageUrl: 'car/strats/healerout/platform-east-aoe-spread.png',
           mask: 'radial-gradient(circle at 9% 63.8%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         },
@@ -1502,7 +1502,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('AoEs', 'AoEs'),
-          description: localizedText('Platform Inside South', "Plateforme Sud vers l'intérieur"),
+          description: localizedText('Platform Inside South', "Vers l'intérieur, au Sud de la plateforme"),
           imageUrl: 'car/strats/healerout/postswap-platform-west-aoe-spread.png',
           mask: 'radial-gradient(circle at 90% 69%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         }
@@ -1547,7 +1547,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('AoEs', 'AoEs'),
-          description: localizedText('Platform Outside North', "Plateforme Nord vers l'extérieur"),
+          description: localizedText('Platform Outside North', "Vers l'extérieur, au Nord de la plateforme"),
           imageUrl: 'car/strats/healerout/platform-east-aoe-spread.png',
           mask: 'radial-gradient(circle at 63.6% 36%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         },
@@ -1630,7 +1630,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('AoEs', 'AoEs'),
-          description: localizedText('Platform Outside North', "Plateforme Nord vers l'extérieur"),
+          description: localizedText('Platform Outside North', "Vers l'extérieur, au Nord de la plateforme"),
           imageUrl: 'car/strats/healerout/postswap-platform-west-aoe-spread.png',
           mask: 'radial-gradient(circle at 36% 38%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         }
