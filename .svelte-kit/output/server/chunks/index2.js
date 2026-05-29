@@ -1,8 +1,8 @@
-import { ad as ATTACHMENT_KEY, ae as lifecycle_function_unavailable, i as derived, af as hasContext, h as getContext, A as setContext, ag as run, p as props_id, c as attributes, j as bind_props, k as fallback, l as slot, o as attr_class, d as clsx$1 } from "./index.js";
+import { ad as ATTACHMENT_KEY, ae as lifecycle_function_unavailable, i as derived, af as hasContext, h as getContext, ac as setContext, ag as run, p as props_id, c as attributes, j as bind_props, k as fallback, l as slot, o as attr_class, d as clsx$1 } from "./index.js";
 import "fast-deep-equal";
 import { clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
-import { Q as on } from "./events.js";
+import { o as on } from "./root.js";
 import parse from "style-to-object";
 import { tv } from "tailwind-variants";
 function createAttachmentKey() {

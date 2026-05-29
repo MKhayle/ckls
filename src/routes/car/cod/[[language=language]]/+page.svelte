@@ -69,7 +69,7 @@
     melee: localizedText('Melee', 'Mêlée'),
     ranged: localizedText('Ranged', 'Distant'),
     partyQuestion: localizedText('Which light party are you in?', 'Quel groupe êtes-vous ?'),
-    overviewAlt: localizedText('[English text pending]', 'Vue générale de la stratégie'),
+    overviewAlt: localizedText('Overview of the strategy', 'Vue générale de la stratégie'),
     spotlight: localizedText('Highlight my spots', 'Mettre en surbrillance mes positions')
   };
 
@@ -187,9 +187,11 @@
 
   function getAssetSrc(src?: string): string {
     if (!src) return '';
-    if (!base || src.startsWith(base)) return src;
+    if (/^(?:[a-z]+:)?\/\//i.test(src) || src.startsWith('data:')) return src;
+    if (base && src.startsWith(`${base}/`)) return src;
 
-    return `${base}${src.startsWith('/') ? src : `/${src}`}`;
+    const normalizedSrc = src.startsWith('/') ? src : `/${src}`;
+    return `${base}${normalizedSrc}`;
   }
 
   async function preloadLanguageImages(targetLanguage: Language) {

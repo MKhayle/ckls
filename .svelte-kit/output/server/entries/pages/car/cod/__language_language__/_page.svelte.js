@@ -1,4 +1,8 @@
 import { i as derived, c as attributes, j as bind_props, s as spread_props, p as props_id, k as fallback, l as slot, g as escape_html, a as attr, m as attr_style, e as ensure_array_like, o as attr_class } from "../../../../../chunks/index.js";
+import { b as base } from "../../../../../chunks/server.js";
+import "../../../../../chunks/url.js";
+import "@sveltejs/kit/internal/server";
+import "../../../../../chunks/root.js";
 import { s as styleToString, m as mergeProps, C as Context, a as attachRef, E as ENTER, S as SPACE, b as boolToEmptyStrOrUndef, g as getDataChecked, c as boolToStr, d as getAriaChecked, e as boolToTrueOrUndef, f as createBitsAttrs, h as createId, n as noop, i as boxWith, j as cn, k as Segment, A as Accordion } from "../../../../../chunks/index2.js";
 const srOnlyStyles = {
   position: "absolute",
@@ -290,10 +294,12 @@ function _page($$renderer, $$props) {
     let language = getInitialLanguage();
     let accordion = ["swaps"];
     let optionsString = derived(() => getOptionsString(stratName, alliance, role, party));
+    let languageUpdateId = 0;
+    const overviewImageSrc = "car/strats/healerout/overall.png";
     const roleIcons = {
-      t: { src: "/icons/tank.png", alt: "Tank" },
-      m: { src: "/icons/melee.png", alt: "Melee" },
-      r: { src: "/icons/ranged.png", alt: "Ranged" }
+      t: { src: getAssetSrc("icons/tank.png"), alt: "Tank" },
+      m: { src: getAssetSrc("icons/melee.png"), alt: "Melee" },
+      r: { src: getAssetSrc("icons/ranged.png"), alt: "Ranged" }
     };
     const localizedText = (english, french) => ({ english, french });
     const uiText = {
@@ -325,7 +331,10 @@ function _page($$renderer, $$props) {
     function getInitialLanguage() {
       return data.language ?? "french";
     }
-    function setLanguage(value) {
+    async function setLanguage(value) {
+      const updateId = ++languageUpdateId;
+      await preloadLanguageImages();
+      if (updateId !== languageUpdateId) return;
       language = value;
     }
     function getMask(step) {
@@ -338,12 +347,23 @@ function _page($$renderer, $$props) {
       return "";
     }
     function getImageSrc(step) {
-      const imageSrc = step.alignmentImages && step.alignmentImages[alignment] ? step.alignmentImages[alignment] : step.imageUrl;
-      return getLocalizedImageSrc(imageSrc);
+      return getStepImageSrcForLanguage(step, language);
     }
-    function getLocalizedImageSrc(src) {
-      const languageFolder = language === "english" ? "EN" : "FR";
-      return src?.replace("healerout", languageFolder);
+    function getStepImageSrcForLanguage(step, targetLanguage) {
+      const imageSrc = step.alignmentImages && step.alignmentImages[alignment] ? step.alignmentImages[alignment] : step.imageUrl;
+      return getLocalizedImageSrc(imageSrc, targetLanguage);
+    }
+    function getLocalizedImageSrc(src, targetLanguage = language) {
+      const languageFolder = targetLanguage === "english" ? "EN" : "FR";
+      return getAssetSrc(src?.replace("healerout", languageFolder));
+    }
+    function getAssetSrc(src) {
+      if (!src) return "";
+      if (!base || src.startsWith(base)) return src;
+      return `${base}${src.startsWith("/") ? src : `/${src}`}`;
+    }
+    async function preloadLanguageImages(targetLanguage) {
+      return;
     }
     function getText(text) {
       return text?.[language] ?? "";
@@ -596,7 +616,7 @@ function _page($$renderer, $$props) {
       },
       $$slots: { default: true }
     });
-    $$renderer2.push(`<!----></div></div> <div class="grow"></div> <div class="my-4 xl:my-0"><img${attr("src", getLocalizedImageSrc("/car/strats/healerout/overall.png"))}${attr("alt", getText(uiText.overviewAlt))}${attr_style("", { "max-height": "400px" })}/></div></div> `);
+    $$renderer2.push(`<!----></div></div> <div class="grow"></div> <div class="my-4 xl:my-0"><img${attr("src", getLocalizedImageSrc(overviewImageSrc))}${attr("alt", getText(uiText.overviewAlt))}${attr_style("", { "max-height": "400px" })}/></div></div> `);
     if (typeof strat() === "string") {
       $$renderer2.push("<!--[0-->");
       $$renderer2.push(`${escape_html(strat())}`);

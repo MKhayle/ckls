@@ -1,5 +1,5 @@
 import "clsx";
-import { s as spread_props, F as head, a as attr, e as ensure_array_like, g as escape_html, o as attr_class, m as attr_style, i as derived, b as stringify } from "../../../../chunks/index.js";
+import { s as spread_props, q as head, a as attr, e as ensure_array_like, g as escape_html, o as attr_class, m as attr_style, i as derived, b as stringify } from "../../../../chunks/index.js";
 import { I as Icon } from "../../../../chunks/Icon.js";
 function html(value) {
   var html2 = String(value ?? "");
