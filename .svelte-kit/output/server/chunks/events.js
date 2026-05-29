@@ -1,4 +1,4 @@
-import { D as DEV } from "./false.js";
+import { b as browser } from "./false.js";
 import { G as run_all, B as BOUNDARY_EFFECT, R as REACTION_RAN, I as ERROR_VALUE, J as EFFECT, K as CONNECTED, N as CLEAN, M as MAYBE_DIRTY, D as DIRTY, O as DERIVED, W as WAS_MARKED, P as RENDER_EFFECT, Q as MANAGED_EFFECT, S as BLOCK_EFFECT, U as UNINITIALIZED, T as deferred, V as BRANCH_EFFECT, X as ROOT_EFFECT, Y as INERT, Z as DESTROYED, _ as ASYNC, $ as includes, a0 as STALE_REACTION, n as noop, a1 as EAGER_EFFECT, a2 as STATE_SYMBOL, a3 as object_prototype, a4 as array_prototype, a5 as get_descriptor, a6 as get_prototype_of, a7 as is_array, a8 as is_extensible, v as EFFECT_PRESERVED, E as EFFECT_TRANSPARENT, a9 as HEAD_EFFECT, aa as USER_EFFECT, ab as REACTION_IS_UPDATING, ac as index_of, y as define_property } from "./index.js";
 function equals(value) {
   return value === this.v;
@@ -536,12 +536,12 @@ function flush_effects() {
       var batch = Batch.ensure();
       if (flush_count++ > 1e3) {
         var updates, entry;
-        if (DEV) ;
+        if (browser) ;
         infinite_loop_guard();
       }
       batch.process(queued_root_effects);
       old_values.clear();
-      if (DEV) ;
+      if (browser) ;
     }
   } finally {
     queued_root_effects = [];
@@ -1647,7 +1647,7 @@ function update_effect(effect) {
     effect.teardown = typeof teardown === "function" ? teardown : null;
     effect.wv = write_version;
     var dep;
-    if (DEV && tracing_mode_flag && (effect.f & DIRTY) !== 0 && effect.deps !== null) ;
+    if (browser && tracing_mode_flag && (effect.f & DIRTY) !== 0 && effect.deps !== null) ;
   } finally {
     is_updating_effect = was_updating_effect;
     active_effect = previous_effect;

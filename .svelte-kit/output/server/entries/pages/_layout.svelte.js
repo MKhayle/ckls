@@ -6824,7 +6824,7 @@ function App_sidebar($$renderer, $$props) {
       {
         title: "Contenus d'Exploration",
         url: "#",
-        defaultOpen: true,
+        defaultOpen: false,
         items: [
           {
             title: "Arsenal de Baldesion",
@@ -6897,7 +6897,7 @@ function App_sidebar($$renderer, $$props) {
           {
             title: "La Tour de Ténèbres",
             subtitle: "COD - Raid en Alliance Chaotique",
-            url: "/car/cod"
+            url: "https://carguideconclave.crd.co/"
           }
         ]
       }
@@ -6914,7 +6914,7 @@ function App_sidebar($$renderer, $$props) {
                   class: "text-lg my-2 font-bold flex flex-row gap-2",
                   children: ($$renderer6) => {
                     Map_pin_check($$renderer6, { class: "size-6 text-white" });
-                    $$renderer6.push(`<!----> Stratégies simplifiées`);
+                    $$renderer6.push(`<!----> Positions &amp; responsabilités`);
                   },
                   $$slots: { default: true }
                 });
@@ -6978,7 +6978,7 @@ function App_sidebar($$renderer, $$props) {
                                                   let child = function($$renderer13, { props }) {
                                                     $$renderer13.push(`<a${attributes({
                                                       "data-sveltekit-replacestate": true,
-                                                      href: subItem.url,
+                                                      href: `${stringify(base)}${stringify(subItem.url)}`,
                                                       ...props,
                                                       class: "flex flex-col w-full items-start"
                                                     })}><div class="text-lg">${escape_html(subItem.title)}</div> <div class="text-base text-surface-400">${escape_html(subItem.subtitle)}</div></a>`);
@@ -7177,7 +7177,7 @@ function _layout($$renderer, $$props) {
               children?.($$renderer4);
               $$renderer4.push(`<!----> `);
               Separator($$renderer4, {});
-              $$renderer4.push(`<!----> <footer class="p-4 shadow-sm mt-auto container px-4 lg:px-8 mx-auto my-4"><div class="grid grid-cols-1 lg:grid-cols-2 w-full justify-between"><div class="text-sm text-gray-500 dark:text-gray-400"><div>Des commentaires ? Des questions ? Quelque chose est incorrect ?</div> <div>Ouvrez <a target="_blank" rel="noopener noreferrer" class="anchor" href="http://github.com/MKhayle/ckls/">une Issue sur GitHub</a> ou <a target="_blank" rel="noopener noreferrer" class="anchor" href="https://discord.com/servers/conclave-d-exploration-1094307976073969685">laissez-nous un message sur Discord.</a></div> <div>FINAL FANTASY est une marqué déposée de Square Enix Holdings Co., Ltd. FINAL
+              $$renderer4.push(`<!----> <footer class="p-4 shadow-sm mt-auto container px-4 lg:px-8 mx-auto my-4"><div class="grid grid-cols-1 lg:grid-cols-2 w-full justify-between"><div class="text-sm text-gray-500 dark:text-gray-400"><div>Des commentaires ? Des questions ? Quelque chose est incorrect ?</div> <div>Ouvrez <a target="_blank" rel="noopener noreferrer" class="anchor" href="http://github.com/MKhayle/ckls/">une Issue sur GitHub</a> ou <a target="_blank" rel="noopener noreferrer" class="anchor" href="https://discord.com/servers/conclave-d-exploration-1094307976073969685">laissez-nous un message sur Discord.</a></div> <div>FINAL FANTASY est une marque déposée de Square Enix Holdings Co., Ltd. FINAL
               FANTASY XIV © SQUARE ENIX</div></div> <div class="text-sm text-gray-500 dark:text-gray-400 lg:text-end mt-4 lg:mt-0"><div>WTFDIG a été créé par Mara Kaminagi @ Adamantoise</div> <div>C koi la strat ?! a été créé pour le <a target="_blank" rel="noopener noreferrer" class="anchor" href="https://discord.com/servers/conclave-d-exploration-1094307976073969685">Conclave d'Exploration</a>.</div></div></div></footer></main>`);
             },
             $$slots: { default: true }

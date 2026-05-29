@@ -4,8 +4,8 @@
 		"src/routes/+layout.ts",
 		"src/routes/+layout.ts"
 	],
-	"/car/cod": [
-		"src/routes/car/cod/+page.ts",
+	"/car/cod/[[language=language]]": [
+		"src/routes/car/cod/[[language=language]]/+page.ts",
 		"src/routes/+layout.ts"
 	],
 	"/changelog": [

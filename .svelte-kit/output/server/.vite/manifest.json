@@ -130,6 +130,12 @@
       "_internal.js"
     ]
   },
+  "src/params/language.ts": {
+    "file": "entries/matchers/language.js",
+    "name": "entries/matchers/language",
+    "src": "src/params/language.ts",
+    "isEntry": true
+  },
   "src/routes/+layout.svelte": {
     "file": "entries/pages/_layout.svelte.js",
     "name": "entries/pages/_layout.svelte",
@@ -145,7 +151,7 @@
       "_root.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.rthZOdDO.css"
+      "_app/immutable/assets/_layout.CqaAsdR2.css"
     ]
   },
   "src/routes/+layout.ts": {
@@ -173,20 +179,20 @@
     "src": "src/routes/+page.ts",
     "isEntry": true
   },
-  "src/routes/car/cod/+page.svelte": {
-    "file": "entries/pages/car/cod/_page.svelte.js",
-    "name": "entries/pages/car/cod/_page.svelte",
-    "src": "src/routes/car/cod/+page.svelte",
+  "src/routes/car/cod/[[language=language]]/+page.svelte": {
+    "file": "entries/pages/car/cod/__language_language__/_page.svelte.js",
+    "name": "entries/pages/car/cod/__language_language__/_page.svelte",
+    "src": "src/routes/car/cod/[[language=language]]/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index.js",
       "_index2.js"
     ]
   },
-  "src/routes/car/cod/+page.ts": {
-    "file": "entries/pages/car/cod/_page.ts.js",
-    "name": "entries/pages/car/cod/_page.ts",
-    "src": "src/routes/car/cod/+page.ts",
+  "src/routes/car/cod/[[language=language]]/+page.ts": {
+    "file": "entries/pages/car/cod/__language_language__/_page.ts.js",
+    "name": "entries/pages/car/cod/__language_language__/_page.ts",
+    "src": "src/routes/car/cod/[[language=language]]/+page.ts",
     "isEntry": true
   },
   "src/routes/changelog/+page.svelte": {
