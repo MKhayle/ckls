@@ -81,7 +81,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Close to boss\nInside\nw/ Healer from B',
-            "Près du boss\nÀ l\'intérieur\nEn duo avec le Soigneur de l'Alliance B"
+            "Près du boss\nVers l\'intérieur\nEn duo avec le Soigneur de l'Alliance B"
           ),
           imageUrl: 'car/strats/healerout/platform-west-pairs.png',
           mask: 'radial-gradient(circle at 77.0% 51.1%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
@@ -106,7 +106,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('AoEs', 'AoEs'),
-          description: localizedText('Platform Inside North', "Plateforme à l'intérieur au Nord"),
+          description: localizedText('Platform Inside North', "Plateforme Vers l'intérieur au Nord"),
           imageUrl: 'car/strats/healerout/platform-west-aoe-spread.png',
           mask: 'radial-gradient(circle at 83% 39%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
         },
@@ -176,7 +176,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('Pairs', 'Paires'),
           description: localizedText(
             'Close to boss\nInside\nw/ Healer from B',
-            "Près du boss\nÀ l\'intérieur\nEn duo avec le Soigneur de l'Alliance B"
+            "Près du boss\nVers l\'intérieur\nEn duo avec le Soigneur de l'Alliance B"
           ),
           imageUrl: 'car/strats/healerout/platform-west-pairs.png',
           mask: 'radial-gradient(circle at 77.0% 51.1%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
@@ -191,7 +191,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('AoEs', 'AoEs'),
           description: localizedText(
             'Platform Inside North',
-            "Plateforme à l'intérieur au Nord"
+            "Plateforme Vers l'intérieur au Nord"
           ),
           imageUrl: 'car/strats/healerout/postswap-platform-east-aoe-spread.png',
           mask: 'radial-gradient(circle at 8.5% 35.9%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -667,7 +667,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('AoEs', 'AoEs'),
           description: localizedText(
             'Platform Inside North',
-            "Plateforme à l'intérieur au Nord"
+            "Plateforme Vers l'intérieur au Nord"
           ),
           imageUrl: 'car/strats/healerout/postswap-platform-east-aoe-spread.png',
           mask: 'radial-gradient(circle at 9% 36%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -719,7 +719,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('AoEs', 'AoEs'),
           description: localizedText(
             'Platform Inside North',
-            "Plateforme à l'intérieur au Nord"
+            "Plateforme Vers l'intérieur au Nord"
           ),
           imageUrl: 'car/strats/healerout/postswap-platform-west-aoe-spread.png',
           mask: 'radial-gradient(circle at 88.5% 39%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -1084,7 +1084,7 @@ const healerOutStrat: Strat = {
       party: 1,
       notes: localizedText(
         'Right/East platform, Face boss Inside',
-        "Plateforme droite/est, orientez le boss vers l'intérieur"
+        "Plateforme Est, orientez le boss vers l'intérieur"
       ),
       startingArea: 'Platform',
       strats: [
@@ -1122,7 +1122,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('AoEs', 'AoEs'),
           description: localizedText(
             'Platform Inside North',
-            "Plateforme à l'intérieur au Nord"
+            "Plateforme Vers l'intérieur au Nord"
           ),
           imageUrl: 'car/strats/healerout/platform-east-aoe-spread.png',
           mask: 'radial-gradient(circle at 9% 35.5%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -1136,7 +1136,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the NW or SW tiles! Now what?',
-        "Le swap s'est correctement effectué vers les tuiles NO/SO ! Et maintenant ?"
+        "Le swap s'est correctement effectué vers les tuiles NW/SW ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -1208,7 +1208,7 @@ const healerOutStrat: Strat = {
           mechanic: localizedText('AoEs', 'AoEs'),
           description: localizedText(
             'Platform Inside North',
-            "Plateforme à l'intérieur au Nord"
+            "Plateforme Vers l'intérieur au Nord"
           ),
           imageUrl: 'car/strats/healerout/postswap-platform-west-aoe-spread.png',
           mask: 'radial-gradient(circle at 88% 39%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -1432,7 +1432,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the NW or SW tiles! Now what?',
-        "Le swap s'est correctement effectué vers les tuiles NO/SO ! Et maintenant ?"
+        "Le swap s'est correctement effectué vers les tuiles NW/SW ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -1560,7 +1560,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the NW or SW tiles! Now what?',
-        "Le swap s'est correctement effectué vers les tuiles NO/SO ! Et maintenant ?"
+        "Le swap s'est correctement effectué vers les tuiles NW/SW ! Et maintenant ?"
       ),
       swapStrats: [
         {
