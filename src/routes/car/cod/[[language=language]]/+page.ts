@@ -526,7 +526,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('Brambles', 'Graines'),
-          description: localizedText('Inside South', 'Au Sud vers l'intérieur'),
+          description: localizedText('Inside South', 'Au Sud vers l\'intérieur'),
           imageUrl: 'car/strats/healerout/platform-west-brambles.png',
           mask: 'radial-gradient(circle at 71% 63.9%, black 10%, rgba(0, 0, 0, 0.4) 0%)'
         },
@@ -1540,7 +1540,7 @@ const healerOutStrat: Strat = {
         },
         {
           mechanic: localizedText('Brambles', 'Graines'),
-          description: localizedText('Inside South', 'Au Sud vers l'intérieur'),
+          description: localizedText('Inside South', 'Au Sud vers l\'intérieur'),
           imageUrl: 'car/strats/healerout/platform-east-brambles.png',
           mask: 'radial-gradient(circle at 29.5% 61.5%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
         },
