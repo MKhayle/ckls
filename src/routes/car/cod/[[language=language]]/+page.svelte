@@ -147,8 +147,10 @@
     if (!browser) return;
 
     const languageSegment = value === 'english' ? 'en' : 'fr';
-    const basePath = window.location.pathname.replace(/\/(?:en|fr)\/?$/, '');
-    const nextPath = `${basePath}/${languageSegment}`;
+    const basePath = window.location.pathname
+      .replace(/\/(?:en|fr)\/?$/, '')
+      .replace(/\/+$/, '');
+    const nextPath = `${basePath}/${languageSegment}/`;
     const nextUrl = `${nextPath}${window.location.search}${window.location.hash}`;
 
     window.history.replaceState(window.history.state, '', nextUrl);
