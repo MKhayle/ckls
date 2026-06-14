@@ -61,7 +61,7 @@ export function getSocialMeta(pathname: string, basePath = '', pageData: PageDat
   const canonicalPath = getPathWithoutBase(pathname, basePath);
   const meta = {
     ...defaultMeta,
-    ...routeMeta[path],
+    ...getRouteMeta(path),
     ...pageData
   };
 
@@ -70,6 +70,14 @@ export function getSocialMeta(pathname: string, basePath = '', pageData: PageDat
     url: absoluteUrl(canonicalPath),
     image: absoluteUrl(meta.image)
   };
+}
+
+function getRouteMeta(path: string) {
+  if (path === '/car/cod' || path.startsWith('/car/cod/')) {
+    return routeMeta['/car/cod'];
+  }
+
+  return routeMeta[path];
 }
 
 function absoluteUrl(path: string) {
