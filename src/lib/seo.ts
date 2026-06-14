@@ -2,7 +2,7 @@ import { env } from '$env/dynamic/public';
 
 const fallbackSiteUrl = 'https://ckoilastrat.fr';
 const siteUrl = (env.PUBLIC_SITE_URL || fallbackSiteUrl).replace(/\/$/, '');
-const defaultImagePath = '/ckls-icon-1024.png';
+const defaultImagePath = '/social-preview.png';
 
 export interface SocialMeta {
   title: string;
@@ -21,13 +21,13 @@ interface PageDataMeta {
 }
 
 const defaultMeta: SocialMeta = {
-  title: 'C koi la strat ?!',
+  title: 'C koi la strat ?! - Guides FFXIV francophones clairs',
   description:
     'Guides et outils francophones pour les contenus de grande envergure de Final Fantasy XIV par le Conclave d\'Exploration.',
   image: defaultImagePath,
   imageAlt: 'Logo de C koi la strat ?!',
-  imageWidth: '1024',
-  imageHeight: '1024'
+  imageWidth: '1200',
+  imageHeight: '630'
 };
 
 const routeMeta: Record<string, Partial<SocialMeta>> = {
@@ -36,8 +36,15 @@ const routeMeta: Record<string, Partial<SocialMeta>> = {
     title: 'La Tour de Ténèbres (Chaotique) - C koi la strat ?!',
     description:
       'Positions, responsabilités et visuels pour La Tour de Ténèbres (Chaotique) dans Final Fantasy XIV.',
-    image: '/car/strats/FR/overall.png',
+    image: '/social-preview-car-cod.png',
     imageAlt: 'Vue générale de la stratégie de La Tour de Ténèbres'
+  },
+  '/car/cod/en': {
+    title: 'The Cloud of Darkness (Chaotic) - C koi la strat ?!',
+    description:
+      'Positions, responsibilities, and visuals for The Cloud of Darkness (Chaotic) in Final Fantasy XIV.',
+    image: '/social-preview-car-cod-en.png',
+    imageAlt: 'Overview of The Cloud of Darkness strategy'
   },
   '/changelog': {
     title: 'Changelog - C koi la strat ?!',
@@ -73,11 +80,15 @@ export function getSocialMeta(pathname: string, basePath = '', pageData: PageDat
 }
 
 function getRouteMeta(path: string) {
+  if (routeMeta[path]) {
+    return routeMeta[path];
+  }
+
   if (path === '/car/cod' || path.startsWith('/car/cod/')) {
     return routeMeta['/car/cod'];
   }
 
-  return routeMeta[path];
+  return undefined;
 }
 
 function absoluteUrl(path: string) {
