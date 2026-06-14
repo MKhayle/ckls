@@ -3,6 +3,7 @@ import { env } from '$env/dynamic/public';
 const fallbackSiteUrl = 'https://ckoilastrat.fr';
 const siteUrl = (env.PUBLIC_SITE_URL || fallbackSiteUrl).replace(/\/$/, '');
 const defaultImagePath = '/social-preview.png';
+const legacyBasePath = '/ckls';
 
 export interface SocialMeta {
   title: string;
@@ -60,7 +61,15 @@ function normalizePath(pathname: string, basePath: string) {
 }
 
 function getPathWithoutBase(pathname: string, basePath: string) {
-  return basePath && pathname.startsWith(basePath) ? pathname.slice(basePath.length) || '/' : pathname;
+  if (basePath && pathname.startsWith(basePath)) {
+    return pathname.slice(basePath.length) || '/';
+  }
+
+  if (pathname === legacyBasePath || pathname.startsWith(`${legacyBasePath}/`)) {
+    return pathname.slice(legacyBasePath.length) || '/';
+  }
+
+  return pathname;
 }
 
 export function getSocialMeta(pathname: string, basePath = '', pageData: PageDataMeta = {}) {
