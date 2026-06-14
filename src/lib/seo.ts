@@ -1,0 +1,81 @@
+import { env } from '$env/dynamic/public';
+
+const fallbackSiteUrl = 'https://ckoilastrat.fr';
+const siteUrl = (env.PUBLIC_SITE_URL || fallbackSiteUrl).replace(/\/$/, '');
+const defaultImagePath = '/ckls-icon-1024.png';
+
+export interface SocialMeta {
+  title: string;
+  description: string;
+  image: string;
+  imageAlt: string;
+  imageWidth: string;
+  imageHeight: string;
+}
+
+interface PageDataMeta {
+  title?: string;
+  description?: string;
+  image?: string;
+  imageAlt?: string;
+}
+
+const defaultMeta: SocialMeta = {
+  title: 'C koi la strat ?!',
+  description:
+    'Guides et outils francophones pour les contenus de grande envergure de Final Fantasy XIV par le Conclave d\'Exploration.',
+  image: defaultImagePath,
+  imageAlt: 'Logo de C koi la strat ?!',
+  imageWidth: '1024',
+  imageHeight: '1024'
+};
+
+const routeMeta: Record<string, Partial<SocialMeta>> = {
+  '/': defaultMeta,
+  '/car/cod': {
+    title: 'La Tour de Ténèbres (Chaotique) - C koi la strat ?!',
+    description:
+      'Positions, responsabilités et visuels pour La Tour de Ténèbres (Chaotique) dans Final Fantasy XIV.',
+    image: '/car/strats/FR/overall.png',
+    imageAlt: 'Vue générale de la stratégie de La Tour de Ténèbres'
+  },
+  '/changelog': {
+    title: 'Changelog - C koi la strat ?!',
+    description: 'Historique des mises à jour de C koi la strat ?!'
+  }
+};
+
+function normalizePath(pathname: string, basePath: string) {
+  const pathWithoutBase = getPathWithoutBase(pathname, basePath);
+  const normalized = pathWithoutBase.replace(/\/$/, '') || '/';
+
+  return normalized;
+}
+
+function getPathWithoutBase(pathname: string, basePath: string) {
+  return basePath && pathname.startsWith(basePath) ? pathname.slice(basePath.length) || '/' : pathname;
+}
+
+export function getSocialMeta(pathname: string, basePath = '', pageData: PageDataMeta = {}) {
+  const path = normalizePath(pathname, basePath);
+  const canonicalPath = getPathWithoutBase(pathname, basePath);
+  const meta = {
+    ...defaultMeta,
+    ...routeMeta[path],
+    ...pageData
+  };
+
+  return {
+    ...meta,
+    url: absoluteUrl(canonicalPath),
+    image: absoluteUrl(meta.image)
+  };
+}
+
+function absoluteUrl(path: string) {
+  if (/^https?:\/\//.test(path)) {
+    return path;
+  }
+
+  return new URL(path.replace(/^\//, ''), `${siteUrl}/`).href;
+}

@@ -12,13 +12,38 @@
   import PanelLeftIcon from '@lucide/svelte/icons/panel-left';
   import Separator from '$lib/components/ui/separator/separator.svelte';
   import { base } from '$app/paths';
+  import { page } from '$app/state';
+  import { getSocialMeta } from '$lib/seo';
 
   interface Props {
     children?: import('svelte').Snippet;
   }
   let { children }: Props = $props();
   const sidebar = useSidebar();
+  const socialMeta = $derived(getSocialMeta(page.url.pathname, base, page.data));
 </script>
+
+<svelte:head>
+  <title>{socialMeta.title}</title>
+  <meta name="description" content={socialMeta.description} />
+  <link rel="canonical" href={socialMeta.url} />
+
+  <meta property="og:site_name" content="C koi la strat ?!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content={socialMeta.title} />
+  <meta property="og:description" content={socialMeta.description} />
+  <meta property="og:url" content={socialMeta.url} />
+  <meta property="og:image" content={socialMeta.image} />
+  <meta property="og:image:alt" content={socialMeta.imageAlt} />
+  <meta property="og:image:width" content={socialMeta.imageWidth} />
+  <meta property="og:image:height" content={socialMeta.imageHeight} />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={socialMeta.title} />
+  <meta name="twitter:description" content={socialMeta.description} />
+  <meta name="twitter:image" content={socialMeta.image} />
+  <meta name="twitter:image:alt" content={socialMeta.imageAlt} />
+</svelte:head>
 
 <ToastProvider>
   <Sidebar.Provider>
