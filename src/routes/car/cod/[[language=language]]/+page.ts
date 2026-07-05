@@ -118,7 +118,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the NE or SE tiles! Now what?',
-        "Le swap s'est correctement effectué vers les tuiles NE/SE ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur les tuiles NE/SE ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -168,7 +168,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the East platform! Now what?',
-        "Le swap s'est correctement effectué vers la plateforme à l'Est ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur la plateforme à l'Est ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -252,7 +252,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the East platform! Now what?',
-        "Le swap s'est correctement effectué vers la plateforme à l'Est ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur la plateforme à l'Est ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -333,7 +333,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the East platform! Now what?',
-        "Le swap s'est correctement effectué vers la plateforme à l'Est ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur la plateforme à l'Est ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -414,7 +414,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the NE or SE tiles! Now what?',
-        "Le swap s'est correctement effectué vers les tuiles NE/SE ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur les tuiles NE/SE ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -467,7 +467,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the East platform! Now what?',
-        "Le swap s'est correctement effectué vers la plateforme à l'Est ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur la plateforme à l'Est ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -545,7 +545,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the NE or SE tiles! Now what?',
-        "Le swap s'est correctement effectué vers les tuiles NE/SE ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur les tuiles NE/SE ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -595,7 +595,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the East platform! Now what?',
-        "Le swap s'est correctement effectué vers la plateforme à l'Est ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur la plateforme à l'Est ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -644,7 +644,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the East platform! Now what?',
-        "Le swap s'est correctement effectué vers la plateforme à l'Est ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur la plateforme à l'Est ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -696,7 +696,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the West platform! Now what?',
-        "Le swap s'est correctement effectué vers la plateforme à l'Ouest ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur la plateforme à l'Ouest ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -777,7 +777,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the East platform! Now what?',
-        "Le swap s'est correctement effectué vers la plateforme à l'Est ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur la plateforme à l'Est ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -855,7 +855,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the West platform! Now what?',
-        "Le swap s'est correctement effectué vers la plateforme à l'Ouest ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur la plateforme à l'Ouest ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -904,7 +904,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the East platform! Now what?',
-        "Le swap s'est correctement effectué vers la plateforme à l'Est ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur la plateforme à l'Est ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -953,7 +953,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the West platform! Now what?',
-        "Le swap s'est correctement effectué vers la plateforme à l'Ouest ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur la plateforme à l'Ouest ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -1002,7 +1002,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the East platform! Now what?',
-        "Le swap s'est correctement effectué vers la plateforme à l'Est ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur la plateforme à l'Est ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -1051,7 +1051,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the West platform! Now what?',
-        "Le swap s'est correctement effectué vers la plateforme à l'Ouest ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur la plateforme à l'Ouest ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -1135,7 +1135,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the NW or SW tiles! Now what?',
-        "Le swap s'est correctement effectué vers les tuiles NW/SW ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur les tuiles NW/SW ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -1185,7 +1185,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the West platform! Now what?',
-        "Le swap s'est correctement effectué vers la plateforme à l'Ouest ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur la plateforme à l'Ouest ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -1269,7 +1269,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the West platform! Now what?',
-        "Le swap s'est correctement effectué vers la plateforme à l'Ouest ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur la plateforme à l'Ouest ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -1350,7 +1350,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the West platform! Now what?',
-        "Le swap s'est correctement effectué vers la plateforme à l'Ouest ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur la plateforme à l'Ouest ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -1431,7 +1431,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the NW or SW tiles! Now what?',
-        "Le swap s'est correctement effectué vers les tuiles NW/SW ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur les tuiles NW/SW ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -1481,7 +1481,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the West platform! Now what?',
-        "Le swap s'est correctement effectué vers la plateforme à l'Ouest ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur la plateforme à l'Ouest ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -1559,7 +1559,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the NW or SW tiles! Now what?',
-        "Le swap s'est correctement effectué vers les tuiles NW/SW ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur les tuiles NW/SW ! Et maintenant ?"
       ),
       swapStrats: [
         {
@@ -1609,7 +1609,7 @@ const healerOutStrat: Strat = {
       ],
       swapNote: localizedText(
         'I got a clean swap to the West platform! Now what?',
-        "Le swap s'est correctement effectué vers la plateforme à l'Ouest ! Et maintenant ?"
+        "Suite au chaos rampant (swap), vous terminez sur la plateforme à l'Ouest ! Et maintenant ?"
       ),
       swapStrats: [
         {
