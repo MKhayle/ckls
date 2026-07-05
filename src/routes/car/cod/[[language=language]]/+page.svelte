@@ -75,19 +75,19 @@
 
   $effect(() => {
     if (browser) {
-      const storedAlliance = localStorage.getItem('chaotic-alliance');
-      const storedRole = localStorage.getItem('chaotic-role');
-      const storedParty = localStorage.getItem('chaotic-party');
+      // const storedAlliance = localStorage.getItem('chaotic-alliance');
+      // const storedRole = localStorage.getItem('chaotic-role');
+      // const storedParty = localStorage.getItem('chaotic-party');
       const storedLanguage = localStorage.getItem('chaotic-language');
-      if (storedAlliance) {
-        alliance = JSON.parse(storedAlliance);
-      }
-      if (storedRole) {
-        role = JSON.parse(storedRole);
-      }
-      if (storedParty) {
-        party = JSON.parse(storedParty);
-      }
+      // if (storedAlliance) {
+      //   alliance = JSON.parse(storedAlliance);
+      // }
+      // if (storedRole) {
+      //   role = JSON.parse(storedRole);
+      // }
+      // if (storedParty) {
+      //   party = JSON.parse(storedParty);
+      // }
       if (!data.language && storedLanguage) {
         language = JSON.parse(storedLanguage);
       }
@@ -96,15 +96,15 @@
 
   $effect(() => {
     if (browser) {
-      if (alliance) {
-        localStorage.setItem('chaotic-alliance', JSON.stringify(alliance));
-      }
-      if (role) {
-        localStorage.setItem('chaotic-role', JSON.stringify(role));
-      }
-      if (party) {
-        localStorage.setItem('chaotic-party', JSON.stringify(party));
-      }
+      // if (alliance) {
+      //   localStorage.setItem('chaotic-alliance', JSON.stringify(alliance));
+      // }
+      // if (role) {
+      //   localStorage.setItem('chaotic-role', JSON.stringify(role));
+      // }
+      // if (party) {
+      //   localStorage.setItem('chaotic-party', JSON.stringify(party));
+      // }
       if (language) {
         localStorage.setItem('chaotic-language', JSON.stringify(language));
       }
